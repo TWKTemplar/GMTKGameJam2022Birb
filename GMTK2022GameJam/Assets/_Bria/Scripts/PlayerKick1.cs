@@ -8,7 +8,7 @@ public class PlayerKick1 : MonoBehaviour
     public float KickRange = 2;
     public List<Dice> AllDice;
 
-    public void CollectAllCloseDice()
+    public void CollectAllCloseDice() // TODO note: needs to be reworked with sprite object
     {
         AllDice.Clear();
 
@@ -49,8 +49,10 @@ public class PlayerKick1 : MonoBehaviour
         foreach (var item in AllDice)
         {
             float dist = Vector3.Distance(transform.position, item.transform.position);
+            Debug.Log("dist: " + dist + ", kickRange: " + KickRange);
             if (dist < KickRange)
             {
+                
                 // kick the ball
                 if (item.rb.velocity.magnitude < 0.1f)
                 {
