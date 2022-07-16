@@ -1,38 +1,142 @@
 fileFormatVersion: 2
 guid: b5190ab03d385f74491b595cddaf076e
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: ceiling
-    100004: floor
-    100006: wall
-    400000: //RootNode
-    400002: ceiling
-    400004: floor
-    400006: wall
-    2100000: apartment_ceiling01_1
-    2100002: apartment_ceiling02_1
-    2100004: apartment_floor01_1
-    2100006: apartment_floor03_1
-    2100008: apartment_floor02_1
-    2100010: apartment_wall01_1
-    2100012: apartment_wall02_1
-    2100014: apartment_wall04_1
-    2100016: apartment_wall03_1
-    2100018: apartment_wood_1
-    2300000: ceiling
-    2300002: floor
-    2300004: wall
-    3300000: ceiling
-    3300002: floor
-    3300004: wall
-    4300000: ceiling
-    4300002: floor
-    4300004: wall
-  externalObjects: {}
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: ceiling
+  - first:
+      1: 100004
+    second: floor
+  - first:
+      1: 100006
+    second: wall
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: ceiling
+  - first:
+      4: 400004
+    second: floor
+  - first:
+      4: 400006
+    second: wall
+  - first:
+      21: 2100000
+    second: apartment_ceiling01_1
+  - first:
+      21: 2100002
+    second: apartment_ceiling02_1
+  - first:
+      21: 2100004
+    second: apartment_floor01_1
+  - first:
+      21: 2100006
+    second: apartment_floor03_1
+  - first:
+      21: 2100008
+    second: apartment_floor02_1
+  - first:
+      21: 2100010
+    second: apartment_wall01_1
+  - first:
+      21: 2100012
+    second: apartment_wall02_1
+  - first:
+      21: 2100014
+    second: apartment_wall04_1
+  - first:
+      21: 2100016
+    second: apartment_wall03_1
+  - first:
+      21: 2100018
+    second: apartment_wood_1
+  - first:
+      23: 2300000
+    second: ceiling
+  - first:
+      23: 2300002
+    second: floor
+  - first:
+      23: 2300004
+    second: wall
+  - first:
+      33: 3300000
+    second: ceiling
+  - first:
+      33: 3300002
+    second: floor
+  - first:
+      33: 3300004
+    second: wall
+  - first:
+      43: 4300000
+    second: ceiling
+  - first:
+      43: 4300002
+    second: floor
+  - first:
+      43: 4300004
+    second: wall
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apartment_ceiling01_1
+    second: {fileID: 2100000, guid: 1ce19d1a243d8174da43e8801a922b50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apartment_ceiling02_1
+    second: {fileID: 2100000, guid: 85c27c7d3b0635442890a34ecb315ff3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apartment_floor01_1
+    second: {fileID: 2100000, guid: c5ade1351866a5643b34904e34922cfd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apartment_floor02_1
+    second: {fileID: 2100000, guid: d675806e42b79634ba5a784a8e290d15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apartment_floor03_1
+    second: {fileID: 2100000, guid: 5b75cedf758e35949bfdb2266380d588, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apartment_wall01_1
+    second: {fileID: 2100000, guid: b914fc25a32a0e34ab10f6fadffb500a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apartment_wall02_1
+    second: {fileID: 2100000, guid: c20b23262bc12644b81d2ababda8fbdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apartment_wall03_1
+    second: {fileID: 2100000, guid: 4ecdcc62fd7470b459dddecd477db936, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apartment_wall04_1
+    second: {fileID: 2100000, guid: 1f7b6258737d603428661d496b98162b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: apartment_wood_1
+    second: {fileID: 2100000, guid: 07147f795de707549a8e110cf7803872, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -64,17 +168,23 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 1
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15
@@ -86,10 +196,13 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 0
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -99,14 +212,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

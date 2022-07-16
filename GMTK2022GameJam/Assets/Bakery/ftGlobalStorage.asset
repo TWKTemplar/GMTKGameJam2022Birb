@@ -16,7 +16,20 @@ MonoBehaviour:
   - Assets/Bakery/examples/content/sponza/sponza.FBX
   - Assets/3rdParty/JP_Apartment/Meshes/cabinet01.fbx
   - Assets/3rdParty/JP_Apartment/Meshes/sideboard01.fbx
-  modifiedAssetPaddingHash: aaf8cc2e353fd3d93e3fd3d9
+  - Assets/_Air/3rdParty/JP_Apartment/Meshes/bottle01_2.fbx
+  - Assets/_Air/3rdParty/JP_Apartment/Meshes/table01.fbx
+  - Assets/_Air/3rdParty/JP_Apartment/Meshes/pillow02.fbx
+  - Assets/_Air/3rdParty/JP_Apartment/Meshes/lamp06.fbx
+  - Assets/_Air/3rdParty/JP_Apartment/Meshes/lamp05.fbx
+  - Assets/_Air/3rdParty/JP_Apartment/Meshes/lamp03.fbx
+  - Assets/_Air/3rdParty/JP_Apartment/Meshes/cup01.fbx
+  - Assets/_Air/3rdParty/JP_Apartment/Meshes/cabinet01.fbx
+  - Assets/_Air/3rdParty/JP_Apartment/Meshes/sideboard01.fbx
+  - Assets/_Air/3rdParty/JP_Apartment/Meshes/donuts01_1.fbx
+  - Assets/_Air/3rdParty/JP_Apartment/Meshes/donuts01_2.fbx
+  - Assets/_Air/3rdParty/JP_Apartment/Meshes/donuts01_3.fbx
+  - Assets/_Air/_Mesh(FBX)/Rug.fbx
+  modifiedAssetPaddingHash: aaf8cc2e353fd3d93e3fd3d9fc5131ee5dc5d8907ac2a693cfc3a693bb09ecc0e1c4d8902ac2c03f353fd3d93e3fd3d95bc2a6933f09ecc0be3980335dc5d890
   modifiedMeshList: []
   modifiedMeshPaddingList: 
   modifiedAssets:
@@ -407,6 +420,59 @@ MonoBehaviour:
     - sideboard01
     padding: 09000000
     unwrapper: 00000000
+  - meshName:
+    - bottle01_2
+    padding: 57000000
+    unwrapper: 00000000
+  - meshName:
+    - table01
+    padding: 18000000
+    unwrapper: 00000000
+  - meshName:
+    - pillow02
+    padding: 31000000
+    unwrapper: 00000000
+  - meshName:
+    - lamp06
+    padding: 63000000
+    unwrapper: 00000000
+  - meshName:
+    - lamp05
+    padding: 16000000
+    unwrapper: 00000000
+  - meshName:
+    - lamp03
+    padding: 40000000
+    unwrapper: 00000000
+  - meshName:
+    - cup01_coffee
+    - cup01
+    padding: a900000030000000
+    unwrapper: 0000000000000000
+  - meshName:
+    - cabinet01
+    padding: 06000000
+    unwrapper: 00000000
+  - meshName:
+    - sideboard01
+    padding: 09000000
+    unwrapper: 00000000
+  - meshName:
+    - donuts01_1
+    padding: 3b000000
+    unwrapper: 00000000
+  - meshName:
+    - donuts01_2
+    padding: 3e000000
+    unwrapper: 00000000
+  - meshName:
+    - donuts01_3
+    padding: 2d000000
+    unwrapper: 00000000
+  - meshName:
+    - Rug
+    padding: 18000000
+    unwrapper: 00000000
   assetList:
   - Assets/Bakery/examples/content/sponza/bush.FBX
   - Assets/Bakery/examples/content/floor_lamp.FBX
@@ -424,7 +490,17 @@ MonoBehaviour:
   - Assets/_Templar/Models/DiceOC.blend
   - Assets/_Templar/Models/dice.fbx
   - Assets/_Templar/Models/DiceOC.fbx
-  uvOverlapAssetList: 00000000ffffffff0000000000000000010100000101000001010000000000000101000001010000000000000000000000000000010100000000000001010000
+  - Assets/_Air 1/3rdParty/Breakfast/Art/Meshes/Candle.FBX
+  - Assets/_Air 1/3rdParty/Breakfast/Art/Meshes/Fork.FBX
+  - Assets/_Air 1/3rdParty/Breakfast/Art/Meshes/Match.FBX
+  - Assets/_Air 1/3rdParty/Breakfast/Art/Meshes/Vase.FBX
+  - Assets/_Air 1/3rdParty/Breakfast/Art/Meshes/Smoke.FBX
+  - Assets/_Air 1/3rdParty/Breakfast/Art/Meshes/Fire.FBX
+  - Assets/_Air 1/3rdParty/Breakfast/Art/Meshes/Pancakes.FBX
+  - Assets/_Air 1/3rdParty/Breakfast/Art/Meshes/BG.FBX
+  - Assets/_Air 1/3rdParty/Breakfast/Art/Meshes/Table.FBX
+  - Assets/_Air 1/3rdParty/Breakfast/Art/Meshes/Matchbox.FBX
+  uvOverlapAssetList: 00000000ffffffff000000000000000001010000010100000101000000000000010100000101000000000000000000000000000001010000000000000101000001010000000000000000000000000000010100000101000000000000000000000101000001010000
   xatlasWarningShown: 0
   foundCompatibleSetup: 1
   gpuName: NVIDIA GeForce RTX 3080
@@ -510,5 +586,5 @@ MonoBehaviour:
   renderSettingsRTPVSceneView: 0
   renderSettingsRTPVWidth: 640
   renderSettingsRTPVHeight: 360
-  modifiedMeshPaddingArray: 09000000
+  modifiedMeshPaddingArray: 18000000
   modifiedMeshUnwrapperArray: 00000000
