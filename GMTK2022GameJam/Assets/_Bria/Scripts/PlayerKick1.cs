@@ -31,6 +31,7 @@ public class PlayerKick1 : MonoBehaviour
     }
     public void OutLineManagement()
     {
+
         foreach (var item in AllDice)
         {
             float dist = Vector3.Distance(transform.position, item.transform.position);
