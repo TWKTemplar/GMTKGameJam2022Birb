@@ -5,6 +5,7 @@ using UnityEngine;
 public class Dice : MonoBehaviour
 {
     public bool THERECANBEONLYONE = true;
+    public bool IncreaseVolumeOnMusicBox = true;
     public Rigidbody rb;
     public float Power = 50;
     public Vector3 OffsetForce;
@@ -69,7 +70,7 @@ public class Dice : MonoBehaviour
     public void Kick(Vector3 OriginPos)
     {
         if(THERECANBEONLYONE) THERECANBEONLYONERemoveOthers();
-
+        if (IncreaseVolumeOnMusicBox) FindObjectOfType<MusicBox>().DiceWasKicked();
         Invoke("LoadRoll", 0.5f);
         Vector3 AdjustedPlayerPos = OriginPos;
         AdjustedPlayerPos.y = transform.position.y;
