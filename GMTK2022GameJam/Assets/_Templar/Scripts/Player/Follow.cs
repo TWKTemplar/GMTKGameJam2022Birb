@@ -9,7 +9,7 @@ public class Follow : MonoBehaviour
     void FixedUpdate()
     {
         Vector3 tempos = Target.transform.position;
-        tempos.y = transform.position.y;
+        //tempos.y = transform.position.y;
         transform.position = Vector3.Lerp(transform.position, tempos, speed); 
     }
 }

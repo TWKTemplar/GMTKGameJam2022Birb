@@ -7,7 +7,7 @@ public class Dice : MonoBehaviour
     public bool THERECANBEONLYONE = true;
     public bool IncreaseVolumeOnMusicBox = true;
     public Rigidbody rb;
-    public float Power = 50;
+    [SerializeField]private float Power;
     public Vector3 OffsetForce;
     public Vector3 SpinForce;
     public bool LOADED;

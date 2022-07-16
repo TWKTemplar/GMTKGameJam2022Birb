@@ -9,6 +9,11 @@ enum PlayerState
     Flying,
     Attack
 }
+enum PlayerDir
+{
+    Left,
+    Right
+}
 
 public class Player1 : MonoBehaviour
 {
@@ -16,15 +21,14 @@ public class Player1 : MonoBehaviour
 
     public CharacterController controller;
     //public Material playerMaterial;
-    public Vector3 playerVelocity;    
     public float playerSpeed = 2.0f;
     public PlayerKick1 PlayerKick;
 
     private Texture texRight;
     private Texture texLeft;
 
-    private PlayerState playerState;
-
+    [SerializeField]private PlayerState playerState;
+    private PlayerDir playerDir;
     private void Start()
     {
         if(controller == null) controller = gameObject.GetComponent<CharacterController>();
@@ -35,45 +39,68 @@ public class Player1 : MonoBehaviour
 
     void Update()
     {
+
         Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+
+        if (move.x <= -0.1f) playerDir = PlayerDir.Left;
+        if (move.x > 0.1f) playerDir = PlayerDir.Right;
+
+
         switch (playerState)
         {
             case PlayerState.Idle:
-                if (move.x != 0 || move.y != 0) playerState = PlayerState.Walking;
+                if (move.magnitude > 0.1f) playerState = PlayerState.Walking;
+                if (playerDir == PlayerDir.Right) animator.Play("BirbRight");
+                if (playerDir == PlayerDir.Left) animator.Play("BirbLeft");
                 break;
             case PlayerState.Walking:
-                if (move.x == 0 && move.y == 0) playerState = PlayerState.Idle;
-                if (move.x > 0) animator.Play("BirbRight");
-                if (move.x <= 0) animator.Play("BirbLeft");
+                if (move.magnitude < 0.1f) playerState = PlayerState.Idle;
+                if (playerDir == PlayerDir.Right) animator.Play("BirbRightWalking");
+                if (playerDir == PlayerDir.Left) animator.Play("BirbLeftWalking");
                 break;
             case PlayerState.Attack:
-                if (move.x > 0) animator.Play("BirbRightAttack");
-                if (move.x <= 0) animator.Play("BirbLeftAttack");
+                if (playerDir == PlayerDir.Right) animator.Play("BirbRightAttack");
+                if (playerDir == PlayerDir.Left) animator.Play("BirbLeftAttack");
                 break;
             case PlayerState.Flying:
-                if (move.x > 0) animator.Play("BirbFlyRight");
-                if (move.x <= 0) animator.Play("BirbFlyLeft");
+                if (playerDir == PlayerDir.Right) animator.Play("BirbFlyRight");
+                if (playerDir == PlayerDir.Left) animator.Play("BirbFlyLeft");
                 break;
             default:
                 break;
         }
 
-        controller.Move(move * Time.deltaTime * playerSpeed);
 
         // Changes the height position of the player..
         if (Input.GetButtonDown("Jump") && playerState != PlayerState.Attack)
         {
-            Debug.Log("KICK");
-            playerState = PlayerState.Attack;
-            PlayerKick.RequestKick();
-            StartCoroutine(WaitAttack(1));
+            //Debug.Log("KICK");
+            Kick();
         }
-        controller.Move(playerVelocity * Time.deltaTime);
-    }
 
-    IEnumerator WaitAttack(float time)
+
+        if(playerState == PlayerState.Attack)
+        {
+            controller.Move(move * Time.deltaTime * playerSpeed * 2);
+        }
+        else
+        {
+            controller.Move(move * Time.deltaTime * playerSpeed);
+        }
+        if(transform.position.y > 2) controller.Move(Vector3.down * Time.deltaTime);
+        
+
+       
+    }
+    public void Kick()
     {
-        yield return new WaitForSeconds(time);
+        playerState = PlayerState.Attack;
+        PlayerKick.RequestKick();
+        FindObjectOfType<Remote>().ChangeTexturesRequest();
+        Invoke("ReturnToIdle", 0.3f);
+    }
+    public void ReturnToIdle()
+    {
         playerState = PlayerState.Walking;
     }
 }

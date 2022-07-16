@@ -6,36 +6,30 @@ public class PlayerKick1 : MonoBehaviour
 {
 
     public float KickRange = 2;
-    public List<Dice> AllDice;
+    public Dice[] AllDice;
 
-    public void CollectAllCloseDice() // TODO note: needs to be reworked with sprite object
+    public void FindAllDice() // TODO note: needs to be reworked with sprite object
     {
-        AllDice.Clear();
-
-        RaycastHit[] hitArray = Physics.SphereCastAll(transform.position,KickRange,transform.forward,8);
-        if (hitArray.Length != 0)
-        {
-            foreach (var hit in hitArray)
-            {
-                if (hit.collider.gameObject.CompareTag("Die"))
-                {
-                    AllDice.Add(hit.collider.gameObject.GetComponent<Dice>());
-                }
-            }
-        }
+        AllDice = FindObjectsOfType<Dice>();
     }
     public void Update()
     {
-        CollectAllCloseDice();
+        
         OutLineManagement();
     }
     public void OutLineManagement()
     {
-
         foreach (var item in AllDice)
         {
+            if (item == null)
+            {
+                FindAllDice();
+                break;
+            }
+
             float dist = Vector3.Distance(transform.position, item.transform.position);
-            if (dist < KickRange && item.rb.velocity.magnitude < 0.1f)
+            Debug.DrawLine(transform.position, item.transform.position);
+            if (dist < KickRange )
             {
                 item.SetOutlineVisable(true);
             }
@@ -45,24 +39,18 @@ public class PlayerKick1 : MonoBehaviour
             }
         }
     }
+    public void Start()
+    {
+        FindAllDice();
+    }
     public void RequestKick()
     {
         foreach (var item in AllDice)
         {
             float dist = Vector3.Distance(transform.position, item.transform.position);
-            Debug.Log("dist: " + dist + ", kickRange: " + KickRange);
+            //Debug.Log("dist: " + dist + ", kickRange: " + KickRange);
             if (dist < KickRange)
             {
-                
-                // kick the ball
-                if (item.rb.velocity.magnitude < 0.1f)
-                {
-                    item.Power = 50;
-                }
-                else
-                {
-                    item.Power = 100;
-                }
                 item.Kick(transform.position);
             }
         }

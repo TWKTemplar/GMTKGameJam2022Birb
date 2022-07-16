@@ -138,9 +138,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   THERECANBEONLYONE: 1
+  IncreaseVolumeOnMusicBox: 1
   rb: {fileID: 3609978836490234554}
-  Power: 250
-  OffsetForce: {x: 0, y: 250, z: 0}
+  Power: 400
+  OffsetForce: {x: 0, y: 200, z: 0}
   SpinForce: {x: 30, y: -30, z: 30}
   LOADED: 0
   NumbersArray:
