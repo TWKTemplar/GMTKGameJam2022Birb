@@ -1,0 +1,74 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Dice : MonoBehaviour
+{
+    public Rigidbody rb;
+    public float Power = 50;
+    public Vector3 OffsetForce;
+    public Vector3 SpinForce;
+    public bool LOADED;
+    public Transform[] NumbersArray;
+    public DiceArt diceArt;
+    public GameObject Outline;
+    public void SetOutlineVisable(bool setActive)
+    {
+        Outline.SetActive(setActive);
+    }
+    public void Update()
+    {
+        if(rb.velocity.magnitude < 0.1f)
+        {
+            diceArt.SetColorKickable();
+            if (LOADED == true)
+            {
+                LOADED = false;
+                Roll();
+            }
+        }
+        else
+        {
+            diceArt.SetColorNOTKickable();
+            
+        }
+    }
+    public void Roll()
+    {
+        Transform highestPoint = null;
+        foreach (var point in NumbersArray)
+        {
+            if(highestPoint == null )
+            { 
+                highestPoint = point;
+                continue;
+            }
+            if (point.position.y > highestPoint.position.y)
+            {
+                highestPoint = point;
+            }
+
+        }
+        int RollResult = int.Parse(highestPoint.name);
+        Debug.Log("Roll Result: " + RollResult);
+    }
+    public void LoadRoll()
+    {
+        LOADED = true;
+    }
+    public void Kick(Vector3 OriginPos)
+    {
+
+        Invoke("LoadRoll", 0.5f);
+        Vector3 AdjustedPlayerPos = OriginPos;
+        AdjustedPlayerPos.y = transform.position.y;
+
+        Vector3 Dir = Vector3.Normalize(transform.position - OriginPos);
+        rb.AddForce(Dir * Power + OffsetForce);
+
+        float ran = Random.Range(1, 10);
+        rb.AddTorque(SpinForce * ran);
+
+
+    }
+}
