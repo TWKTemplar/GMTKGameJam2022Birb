@@ -6,10 +6,33 @@ public class PlayerKick : MonoBehaviour
 {
 
     public float KickRange = 2;
-    public Dice[] AllDice;
+    public List<Dice> AllDice;
+
+    public void CollectAllCloseDice()
+    {
+        AllDice.Clear();
+
+        RaycastHit[] hitArray = Physics.SphereCastAll(transform.position,KickRange,transform.forward,8);
+        if (hitArray.Length != 0)
+        {
+            foreach (var hit in hitArray)
+            {
+                if (hit.collider.gameObject.CompareTag("Die"))
+                {
+                    AllDice.Add(hit.collider.gameObject.GetComponent<Dice>());
+                }
+            }
+        }
+    }
     public void Update()
     {
-        AllDice = FindObjectsOfType<Dice>();
+        CollectAllCloseDice();
+        OutLineManagement();
+
+
+    }
+    public void OutLineManagement()
+    {
         foreach (var item in AllDice)
         {
             float dist = Vector3.Distance(transform.position, item.transform.position);
@@ -25,7 +48,7 @@ public class PlayerKick : MonoBehaviour
     }
     public void RequestKick()
     {
-        AllDice = FindObjectsOfType<Dice>();
+        
         foreach (var item in AllDice)
         {
             float dist = Vector3.Distance(transform.position, item.transform.position);

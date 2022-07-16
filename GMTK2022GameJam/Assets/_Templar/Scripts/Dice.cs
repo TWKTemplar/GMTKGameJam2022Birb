@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Dice : MonoBehaviour
 {
+    public bool THERECANBEONLYONE = true;
     public Rigidbody rb;
     public float Power = 50;
     public Vector3 OffsetForce;
@@ -33,6 +34,15 @@ public class Dice : MonoBehaviour
             
         }
     }
+    public void THERECANBEONLYONERemoveOthers()
+    {
+        THERECANBEONLYONE = false;
+        foreach (var item in FindObjectsOfType<Dice>())
+        {
+            if (item == this) continue;
+            Destroy(item.gameObject);
+        }
+    }
     public void Roll()
     {
         Transform highestPoint = null;
@@ -58,6 +68,7 @@ public class Dice : MonoBehaviour
     }
     public void Kick(Vector3 OriginPos)
     {
+        if(THERECANBEONLYONE) THERECANBEONLYONERemoveOthers();
 
         Invoke("LoadRoll", 0.5f);
         Vector3 AdjustedPlayerPos = OriginPos;
