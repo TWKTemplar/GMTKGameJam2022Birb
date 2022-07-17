@@ -73,6 +73,7 @@ GameObject:
   - component: {fileID: 3609978836490234554}
   - component: {fileID: 3609978836490234553}
   - component: {fileID: 3609978836490234558}
+  - component: {fileID: 1681898158}
   m_Layer: 8
   m_Name: Dice
   m_TagString: Die
@@ -153,6 +154,7 @@ MonoBehaviour:
   - {fileID: 3609978836371299953}
   diceArt: {fileID: 3609978836490234558}
   Outline: {fileID: 7430281293584111218}
+  funnyDiceEffects: {fileID: 1681898158}
 --- !u!114 &3609978836490234558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,6 +173,27 @@ MonoBehaviour:
   colorTop: {r: 0.5744929, g: 0.5748065, b: 0.37581122, a: 1}
   DimAmount: 0.5
   DimColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &1681898158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3609978836490234549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40500fa1e604b1b4a85c490ed8e531a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Effects:
+  - {fileID: 4921947505959875003, guid: 665c3014e4fab0a48ab291c20a3f689b, type: 3}
+  - {fileID: 1177595073004384666, guid: d348efc13da09664d8c48ef0a88792ff, type: 3}
+  - {fileID: 4342290332535423207, guid: 84bb219faa7cfc4439f6c72305f65f4a, type: 3}
+  - {fileID: 9013664029993212747, guid: 71baba2ec8ce2234f9a6ef75c4ed3734, type: 3}
+  - {fileID: 8163752371076646679, guid: 44fef166e4935a141b6ec55e8b839a34, type: 3}
+  - {fileID: 8406415486194076831, guid: 2c87d7d6b0e9ecc4c97d4ff951bd1047, type: 3}
+  player: {fileID: 0}
+  enemies: []
 --- !u!1 &3609978837016088483
 GameObject:
   m_ObjectHideFlags: 0

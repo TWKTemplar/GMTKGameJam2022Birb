@@ -14,6 +14,7 @@ public class Dice : MonoBehaviour
     public Transform[] NumbersArray;
     public DiceArt diceArt;
     public GameObject Outline;
+    public FunnyDiceEffects funnyDiceEffects;
     public void SetOutlineVisable(bool setActive)
     {
         Outline.SetActive(setActive);
@@ -62,6 +63,7 @@ public class Dice : MonoBehaviour
         }
         int RollResult = int.Parse(highestPoint.name);
         Debug.Log("Roll Result: " + RollResult);
+        funnyDiceEffects.Roll(RollResult);
     }
     public void LoadRoll()
     {
