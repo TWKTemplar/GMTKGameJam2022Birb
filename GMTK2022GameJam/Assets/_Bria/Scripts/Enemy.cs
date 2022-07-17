@@ -13,6 +13,7 @@ enum EnemyState
 
 public class Enemy : MonoBehaviour
 {
+    public int hp = 3;
     public NavMeshAgent agent;
     public Player1 player;
 
@@ -28,6 +29,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float Power;
     public Vector3 OffsetForce;
     public Vector3 SpinForce;
+    public GameObject[] Hearts;
 
     void Start()
     {
@@ -79,12 +81,40 @@ public class Enemy : MonoBehaviour
         IsConfedent = SetConfedent;
         IsConfedentVisual.SetActive(IsConfedent);
     }
+    public void LoseHp(int HpToLose = 1)
+    {
+
+        hp -= HpToLose;
+        if (hp > 3) hp = 3;
+        
+
+        if (hp == 3) foreach (var heart in Hearts) { heart.SetActive(true); }
+        if (hp == 2)
+        {
+            Hearts[0].SetActive(true);
+            Hearts[1].SetActive(true);
+            Hearts[2].SetActive(false);
+        }
+        if (hp == 1)
+        {
+            Hearts[0].SetActive(true);
+            Hearts[1].SetActive(false);
+            Hearts[2].SetActive(false);
+        }
+        if (hp == 0 || hp <= 0)
+        {
+            Debug.Log("Enemy Died :(");
+            Destroy(gameObject);
+        }
+
+    }
     #endregion
 
 
     #region Effects
     public void EffectMakeConfident()
     {
+        LoseHp(-3);
         SetConfedence(true);
         agent.speed = agent.speed * 2;
         this.gameObject.transform.localScale = this.gameObject.transform.localScale * 1.2f;
@@ -98,7 +128,7 @@ public class Enemy : MonoBehaviour
     
     public void EffectStun()
     {
-        
+        LoseHp();
         agent.enabled = false;
         rb.AddTorque(SpinForce * 50);
         Invoke("TurnAgentBackOn", 2);
@@ -113,6 +143,7 @@ public class Enemy : MonoBehaviour
         rb.AddTorque(SpinForce * ran);
         
         Invoke("TurnGravityOn", 3);
+        Invoke("LoseHp", 5);
         Invoke("TurnAgentBackOn", 6);
     }
     public void EffectRunAway(Vector3 pos)
@@ -135,7 +166,7 @@ public class Enemy : MonoBehaviour
 
         float ran = Random.Range(1, 10);
         rb.AddTorque(SpinForce * ran);
-
+        LoseHp();
         Invoke("TurnAgentBackOn", 5);
     }
     #endregion

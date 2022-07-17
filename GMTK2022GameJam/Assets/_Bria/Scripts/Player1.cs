@@ -17,6 +17,8 @@ enum PlayerDir
 
 public class Player1 : MonoBehaviour
 {
+    public AudioSource audioSource;
+    public AudioClip[] audioClips;
     [SerializeField] Animator animator;
 
     public CharacterController controller;
@@ -33,8 +35,16 @@ public class Player1 : MonoBehaviour
     {
         if(controller == null) controller = gameObject.GetComponent<CharacterController>();
         if(PlayerKick == null) PlayerKick = gameObject.GetComponent<PlayerKick1>();
+        if (audioSource == null) audioSource = gameObject.GetComponent<AudioSource>();
 
         playerState = PlayerState.Idle;
+    }
+    public void PlayRandomAudio()
+    {
+        int random = Random.Range(0, audioClips.Length - 1);
+        Debug.Log("Audio clip : " + random);
+        audioSource.clip = audioClips[random];
+        audioSource.Play();
     }
 
     void Update()

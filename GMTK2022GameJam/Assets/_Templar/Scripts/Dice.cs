@@ -62,7 +62,7 @@ public class Dice : MonoBehaviour
 
         }
         int RollResult = int.Parse(highestPoint.name);
-        Debug.Log("Roll Result: " + RollResult);
+        //Debug.Log("Roll Result: " + RollResult);
         funnyDiceEffects.Roll(RollResult);
     }
     public void LoadRoll()

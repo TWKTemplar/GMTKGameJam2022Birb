@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3609978836371299953}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39,7 +39,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3609978836375282977}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74,7 +74,7 @@ GameObject:
   - component: {fileID: 3609978836490234553}
   - component: {fileID: 3609978836490234558}
   - component: {fileID: 1681898158}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Dice
   m_TagString: Die
   m_Icon: {fileID: 0}
@@ -185,6 +185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40500fa1e604b1b4a85c490ed8e531a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dice: {fileID: 3609978836490234553}
   Effects:
   - {fileID: 4921947505959875003, guid: 665c3014e4fab0a48ab291c20a3f689b, type: 3}
   - {fileID: 1177595073004384666, guid: d348efc13da09664d8c48ef0a88792ff, type: 3}
@@ -194,6 +195,8 @@ MonoBehaviour:
   - {fileID: 8406415486194076831, guid: 2c87d7d6b0e9ecc4c97d4ff951bd1047, type: 3}
   player: {fileID: 0}
   enemies: []
+  worldObjects: []
+  Distance: 5
 --- !u!1 &3609978837016088483
 GameObject:
   m_ObjectHideFlags: 0
@@ -203,7 +206,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3609978837016088480}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -233,7 +236,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3609978837158168442}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -263,7 +266,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3609978837614332707}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -293,7 +296,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3609978838196806325}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -323,7 +326,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3609978838215728316}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: DiceOutcomeSolver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -361,7 +364,7 @@ GameObject:
   - component: {fileID: 3576564684716837306}
   - component: {fileID: 436102822468912671}
   - component: {fileID: 2443676125539267285}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: DiceOC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -442,7 +445,7 @@ GameObject:
   - component: {fileID: 5010978388378120349}
   - component: {fileID: 4106528248557861231}
   - component: {fileID: 5281948564850751}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Outline
   m_TagString: Untagged
   m_Icon: {fileID: 0}

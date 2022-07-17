@@ -7,6 +7,8 @@ public class PlayerKick1 : MonoBehaviour
 
     public float KickRange = 2;
     public Dice[] AllDice;
+    public GameObject FeathersEffect;
+    public GameObject FeathersParent;
 
     public void FindAllDice() // TODO note: needs to be reworked with sprite object
     {
@@ -52,7 +54,12 @@ public class PlayerKick1 : MonoBehaviour
             if (dist < KickRange)
             {
                 item.Kick(transform.position);
+                GameObject effect = Instantiate(FeathersEffect);
+                effect.transform.position = FeathersParent.transform.position;
+                effect.transform.SetParent(FeathersParent.transform);
+                Destroy(effect, 5);
             }
+
         }
     }    
 }
