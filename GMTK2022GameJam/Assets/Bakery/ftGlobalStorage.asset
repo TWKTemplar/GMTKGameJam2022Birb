@@ -32,7 +32,13 @@ MonoBehaviour:
   - Assets/3rdParty/JP_Apartment/Meshes/lamp03.fbx
   - Assets/3rdParty/JP_Apartment/Meshes/lamp06.fbx
   - Assets/3rdParty/JP_Apartment/Meshes/lamp05.fbx
-  modifiedAssetPaddingHash: aaf8cc2e353fd3d93e3fd3d9fc5131ee5dc5d8907ac2a693cfc3a693bb09ecc0e1c4d8902ac2c03f353fd3d93e3fd3d95bc2a6933f09ecc0be3980335dc5d890e1c4d890cfc3a693bb09ecc0
+  - Assets/3rdParty/JP_Apartment/Meshes/shampoo01.fbx
+  - Assets/3rdParty/JP_Apartment/Meshes/chair02.fbx
+  - Assets/3rdParty/JP_Apartment/Meshes/table03.fbx
+  - Assets/3rdParty/JP_Apartment/Meshes/chair01.fbx
+  - Assets/3rdParty/JP_Apartment/Meshes/washing-machine01.fbx
+  - Assets/3rdParty/JP_Apartment/Meshes/shelf02.fbx
+  modifiedAssetPaddingHash: aaf8cc2e353fd3d93e3fd3d9fc5131ee5dc5d8907ac2a693cfc3a693bb09ecc0e1c4d8902ac2c03f353fd3d93e3fd3d95bc2a6933f09ecc0be3980335dc5d890e1c4d890cfc3a693bb09ecc0c668e2a814f33a06363fd3d9363fd3d9363fd3d9393fd3d9
   modifiedMeshList: []
   modifiedMeshPaddingList: 
   modifiedAssets:
@@ -488,6 +494,30 @@ MonoBehaviour:
     - lamp05
     padding: 16000000
     unwrapper: 00000000
+  - meshName:
+    - shampoo01
+    padding: 51000000
+    unwrapper: 00000000
+  - meshName:
+    - chair02
+    padding: 0a000000
+    unwrapper: 00000000
+  - meshName:
+    - table03
+    padding: 01000000
+    unwrapper: 00000000
+  - meshName:
+    - chair01
+    padding: 01000000
+    unwrapper: 00000000
+  - meshName:
+    - washing-machine01
+    padding: 01000000
+    unwrapper: 00000000
+  - meshName:
+    - shelf02
+    padding: 02000000
+    unwrapper: 00000000
   assetList:
   - Assets/Bakery/examples/content/sponza/bush.FBX
   - Assets/Bakery/examples/content/floor_lamp.FBX
@@ -608,5 +638,5 @@ MonoBehaviour:
   renderSettingsRTPVSceneView: 0
   renderSettingsRTPVWidth: 640
   renderSettingsRTPVHeight: 360
-  modifiedMeshPaddingArray: 16000000
+  modifiedMeshPaddingArray: 02000000
   modifiedMeshUnwrapperArray: 00000000
