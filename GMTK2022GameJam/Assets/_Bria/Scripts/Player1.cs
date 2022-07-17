@@ -106,6 +106,7 @@ public class Player1 : MonoBehaviour
         playerState = PlayerState.Attack;
         PlayerKick.RequestKick();
         PlayRandomAudio();
+        FindObjectOfType<VolumeRemoteCol>().ChangeVolumeRequest();
         FindObjectOfType<Remote>().ChangeTexturesRequest();
         Invoke("ReturnToIdle", 0.3f);
     }
