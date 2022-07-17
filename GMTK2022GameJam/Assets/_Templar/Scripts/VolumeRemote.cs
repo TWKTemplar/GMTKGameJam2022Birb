@@ -10,28 +10,25 @@ public class VolumeRemote : MonoBehaviour
     public GameObject PositivePos;
     public GameObject NegativePos;
     public SkinnedMeshRenderer skinnedMeshRenderer;
-    
+    public AudioSource audioSource;
 
 
     void Start()
     {
         if (audioListener != null) audioListener = FindObjectOfType<AudioListener>();
         if (Player == null) Player = FindObjectOfType<Player1>();
+        Visualizer();
+        AudioListener.volume = VolumeNum;
     }
     public void Visualizer()
     {
         float num = VolumeNum;
         for (int i = -1; i < 8; i++)
         {
+            if (i != -1)
             skinnedMeshRenderer.SetBlendShapeWeight(i,Mathf.Clamp(-num,0,1) * 100);
             num--;
         }
-    }
-    void Update()
-    {
-        Visualizer();
-        AudioListener.volume = VolumeNum * 1.25f;
-
     }
     private bool IsPlayerCloserToPositive()
     {
@@ -52,5 +49,8 @@ public class VolumeRemote : MonoBehaviour
         {
             VolumeNum--;
         }
+        audioSource.Play();
+        Visualizer();
+        AudioListener.volume = VolumeNum;
     }
 }

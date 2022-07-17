@@ -6,6 +6,7 @@ public class Remote : MonoBehaviour
 {
     public bool PlayerWithinRange;
     public GameObject RemoteGlow;
+    public AudioSource audioSource;
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
@@ -28,6 +29,8 @@ public class Remote : MonoBehaviour
     {
         if (PlayerWithinRange)
         {
+            audioSource.Play();
+
             foreach (var item in FindObjectsOfType<DiceArt>())
             {
                 item.AssignNewTexture();
