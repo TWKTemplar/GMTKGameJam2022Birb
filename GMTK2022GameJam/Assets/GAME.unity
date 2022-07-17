@@ -8200,7 +8200,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5dfcc7e60b1035d43b5f5fe30fbbf229, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -198.1
+      value: -155.5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5dfcc7e60b1035d43b5f5fe30fbbf229, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8208,7 +8208,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5dfcc7e60b1035d43b5f5fe30fbbf229, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 397
+      value: 258.1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5dfcc7e60b1035d43b5f5fe30fbbf229, type: 3}
       propertyPath: m_LocalRotation.w
@@ -17831,7 +17831,7 @@ ReflectionProbe:
   m_TimeSlicingMode: 0
   m_Resolution: 512
   m_UpdateFrequency: 0
-  m_BoxSize: {x: 62.490196, y: 19.999344, z: 66.50172}
+  m_BoxSize: {x: 624.902, y: 199.9934, z: 665.0172}
   m_BoxOffset: {x: -25.320652, y: 4.999673, z: -21.09269}
   m_NearClip: 0.3
   m_FarClip: 1000
