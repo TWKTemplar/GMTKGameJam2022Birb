@@ -44,6 +44,8 @@ public class Dice : MonoBehaviour
             if (item == this) continue;
             Destroy(item.gameObject);
         }
+        FindObjectOfType<MusicBox>().TargetCube = transform;
+
     }
     public void Roll()
     {

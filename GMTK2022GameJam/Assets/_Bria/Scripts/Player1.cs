@@ -44,7 +44,7 @@ public class Player1 : MonoBehaviour
     public void PlayRandomAudio()
     {
         int random = Random.Range(0, audioClips.Length - 1);
-        Debug.Log("Audio clip : " + random);
+        //Debug.Log("Audio clip : " + random);
         audioSource.clip = audioClips[random];
         audioSource.Play();
     }
@@ -105,6 +105,7 @@ public class Player1 : MonoBehaviour
         flagKick = true;
         playerState = PlayerState.Attack;
         PlayerKick.RequestKick();
+        PlayRandomAudio();
         FindObjectOfType<Remote>().ChangeTexturesRequest();
         Invoke("ReturnToIdle", 0.3f);
     }
