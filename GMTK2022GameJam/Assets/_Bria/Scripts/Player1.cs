@@ -31,10 +31,12 @@ public class Player1 : MonoBehaviour
 
     [SerializeField]private PlayerState playerState;
     private PlayerDir playerDir;
+    private bool flagKick = false;
+
     private void Start()
     {
-        if(controller == null) controller = gameObject.GetComponent<CharacterController>();
-        if(PlayerKick == null) PlayerKick = gameObject.GetComponent<PlayerKick1>();
+        if (controller == null) controller = gameObject.GetComponent<CharacterController>();
+        if (PlayerKick == null) PlayerKick = gameObject.GetComponent<PlayerKick1>();
         if (audioSource == null) audioSource = gameObject.GetComponent<AudioSource>();
 
         playerState = PlayerState.Idle;
@@ -55,6 +57,8 @@ public class Player1 : MonoBehaviour
         if (move.x <= -0.1f) playerDir = PlayerDir.Left;
         if (move.x > 0.1f) playerDir = PlayerDir.Right;
 
+        if (!flagKick && transform.position.y > 2) playerState = PlayerState.Flying;
+        else if (!flagKick && playerState == PlayerState.Flying) playerState = PlayerState.Idle;
 
         switch (playerState)
         {
@@ -73,21 +77,19 @@ public class Player1 : MonoBehaviour
                 if (playerDir == PlayerDir.Left) animator.Play("BirbLeftAttack");
                 break;
             case PlayerState.Flying:
-                if (playerDir == PlayerDir.Right) animator.Play("BirbFlyRight");
-                if (playerDir == PlayerDir.Left) animator.Play("BirbFlyLeft");
+                if (!flagKick && playerDir == PlayerDir.Right) animator.Play("BirbFlyRight");
+                if (!flagKick && playerDir == PlayerDir.Left) animator.Play("BirbFlyLeft");
+                controller.Move(Vector3.down * Time.deltaTime);
                 break;
             default:
                 break;
         }
 
-
         // Changes the height position of the player..
         if (Input.GetButtonDown("Jump") && playerState != PlayerState.Attack)
         {
-            //Debug.Log("KICK");
             Kick();
         }
-
 
         if(playerState == PlayerState.Attack)
         {
@@ -97,13 +99,10 @@ public class Player1 : MonoBehaviour
         {
             controller.Move(move * Time.deltaTime * playerSpeed);
         }
-        if(transform.position.y > 2) controller.Move(Vector3.down * Time.deltaTime);
-        
-
-       
     }
     public void Kick()
     {
+        flagKick = true;
         playerState = PlayerState.Attack;
         PlayerKick.RequestKick();
         FindObjectOfType<Remote>().ChangeTexturesRequest();
@@ -111,6 +110,7 @@ public class Player1 : MonoBehaviour
     }
     public void ReturnToIdle()
     {
+        flagKick = false;
         playerState = PlayerState.Walking;
     }
 }

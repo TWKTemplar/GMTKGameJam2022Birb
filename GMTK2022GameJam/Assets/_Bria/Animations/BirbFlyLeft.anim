@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BirbFlyRight
+  m_Name: BirbFlyLeft
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,13 +20,13 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: 1168aa1dbe81a154eba79304d2a8649a, type: 3}
-    - time: 0.21666667
-      value: {fileID: 21300000, guid: b0859c1118c3d3d44a9cd0eded219def, type: 3}
-    - time: 0.56666666
-      value: {fileID: 21300000, guid: b0859c1118c3d3d44a9cd0eded219def, type: 3}
+      value: {fileID: 21300000, guid: 9a9ef6816b653a14f93efe14a160b3f6, type: 3}
+    - time: 0.23333333
+      value: {fileID: 21300000, guid: b78ec512e3feda541a1ab95fdd90e1a0, type: 3}
+    - time: 0.55
+      value: {fileID: 21300000, guid: b78ec512e3feda541a1ab95fdd90e1a0, type: 3}
     - time: 0.75
-      value: {fileID: 21300000, guid: 1168aa1dbe81a154eba79304d2a8649a, type: 3}
+      value: {fileID: 21300000, guid: 9a9ef6816b653a14f93efe14a160b3f6, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -46,10 +46,10 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 1168aa1dbe81a154eba79304d2a8649a, type: 3}
-    - {fileID: 21300000, guid: b0859c1118c3d3d44a9cd0eded219def, type: 3}
-    - {fileID: 21300000, guid: b0859c1118c3d3d44a9cd0eded219def, type: 3}
-    - {fileID: 21300000, guid: 1168aa1dbe81a154eba79304d2a8649a, type: 3}
+    - {fileID: 21300000, guid: 9a9ef6816b653a14f93efe14a160b3f6, type: 3}
+    - {fileID: 21300000, guid: b78ec512e3feda541a1ab95fdd90e1a0, type: 3}
+    - {fileID: 21300000, guid: b78ec512e3feda541a1ab95fdd90e1a0, type: 3}
+    - {fileID: 21300000, guid: 9a9ef6816b653a14f93efe14a160b3f6, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
