@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 956bf52917e1ab5438be2e552061ceef,
+  m_LightingDataAsset: {fileID: 112000000, guid: 0abfe7a606bd6384db249134bf32c613,
     type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -183,6 +183,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d50a0ffd15f6444e9a3c3514c5a8e59, type: 3}
+--- !u!1 &12857715 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1240817579753376, guid: 7d50a0ffd15f6444e9a3c3514c5a8e59,
+    type: 3}
+  m_PrefabInstance: {fileID: 12857714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &12857716 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23147173364077182, guid: 7d50a0ffd15f6444e9a3c3514c5a8e59,
+    type: 3}
+  m_PrefabInstance: {fileID: 12857714}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &19239917
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4331,6 +4343,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 119318122}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &119318124 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1675554287933646, guid: dd57e8d043be00043a115ed1f65dab8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 119318122}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &119318125 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23482583753438504, guid: dd57e8d043be00043a115ed1f65dab8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 119318122}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &134237659
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5186,6 +5210,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 206267471}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &206267473 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1497226666178110, guid: 69273cc350fccb24d9d72c295f127484,
+    type: 3}
+  m_PrefabInstance: {fileID: 206267471}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &206267474 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23934875353976834, guid: 69273cc350fccb24d9d72c295f127484,
+    type: 3}
+  m_PrefabInstance: {fileID: 206267471}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &210031593
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5277,6 +5313,47 @@ MeshRenderer:
     type: 3}
   m_PrefabInstance: {fileID: 210031593}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &214018196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
+  m_Name: probes
+  m_EditorClassIdentifier: 
+  resolution: 4096
+  bitmask: 1
+  id: 1
+  sortingID: 0
+  isImplicit: 1
+  area: 0
+  totalVertexCount: 246
+  vertexCounter: 0
+  sceneLodLevel: -1
+  sceneName: 
+  containsTerrains: 0
+  probes: 1
+  mode: 2
+  renderMode: 1000
+  renderDirMode: 5
+  atlasPacker: 1000
+  computeSSS: 0
+  sssSamples: 16
+  sssDensity: 10
+  sssColor: {r: 1, g: 1, b: 1, a: 1}
+  sssScale: 1
+  fakeShadowBias: 0
+  transparentSelfShadow: 0
+  flipNormal: 0
+  parentName: 
+  overridePath: 
+  fixPos3D: 0
+  voxelSize: {x: 1, y: 1, z: 1}
+  passedFilter: 0
 --- !u!1001 &215084429
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5952,6 +6029,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d50a0ffd15f6444e9a3c3514c5a8e59, type: 3}
+--- !u!1 &263483136 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1240817579753376, guid: 7d50a0ffd15f6444e9a3c3514c5a8e59,
+    type: 3}
+  m_PrefabInstance: {fileID: 263483135}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &263483137 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23147173364077182, guid: 7d50a0ffd15f6444e9a3c3514c5a8e59,
+    type: 3}
+  m_PrefabInstance: {fileID: 263483135}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &271683397
 GameObject:
   m_ObjectHideFlags: 0
@@ -7383,6 +7472,18 @@ PrefabInstance:
 --- !u!4 &306949148 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4260061140339924, guid: dd57e8d043be00043a115ed1f65dab8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 306949147}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &306949149 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1675554287933646, guid: dd57e8d043be00043a115ed1f65dab8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 306949147}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &306949150 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23482583753438504, guid: dd57e8d043be00043a115ed1f65dab8c,
     type: 3}
   m_PrefabInstance: {fileID: 306949147}
   m_PrefabAsset: {fileID: 0}
@@ -8925,6 +9026,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 432109371}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &432109373 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1675554287933646, guid: dd57e8d043be00043a115ed1f65dab8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 432109371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &432109374 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23482583753438504, guid: dd57e8d043be00043a115ed1f65dab8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 432109371}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &439577561
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9714,6 +9827,18 @@ PrefabInstance:
 --- !u!4 &500713200 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4260061140339924, guid: dd57e8d043be00043a115ed1f65dab8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 500713199}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &500713201 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1675554287933646, guid: dd57e8d043be00043a115ed1f65dab8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 500713199}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &500713202 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23482583753438504, guid: dd57e8d043be00043a115ed1f65dab8c,
     type: 3}
   m_PrefabInstance: {fileID: 500713199}
   m_PrefabAsset: {fileID: 0}
@@ -14209,6 +14334,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d50a0ffd15f6444e9a3c3514c5a8e59, type: 3}
+--- !u!1 &920237587 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1240817579753376, guid: 7d50a0ffd15f6444e9a3c3514c5a8e59,
+    type: 3}
+  m_PrefabInstance: {fileID: 920237586}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &920237588 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23147173364077182, guid: 7d50a0ffd15f6444e9a3c3514c5a8e59,
+    type: 3}
+  m_PrefabInstance: {fileID: 920237586}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &925881935
 GameObject:
   m_ObjectHideFlags: 0
@@ -14452,18 +14589,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2560ef8939e114438416ef3bc518280, type: 3}
---- !u!1 &938665167 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1547069330807078, guid: a2560ef8939e114438416ef3bc518280,
-    type: 3}
-  m_PrefabInstance: {fileID: 938665166}
-  m_PrefabAsset: {fileID: 0}
---- !u!23 &938665169 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 23135805019690132, guid: a2560ef8939e114438416ef3bc518280,
-    type: 3}
-  m_PrefabInstance: {fileID: 938665166}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &938665170 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4422007693504540, guid: a2560ef8939e114438416ef3bc518280,
@@ -14659,6 +14784,18 @@ PrefabInstance:
 --- !u!4 &951612551 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4260061140339924, guid: dd57e8d043be00043a115ed1f65dab8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 951612550}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &951612552 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1675554287933646, guid: dd57e8d043be00043a115ed1f65dab8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 951612550}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &951612553 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23482583753438504, guid: dd57e8d043be00043a115ed1f65dab8c,
     type: 3}
   m_PrefabInstance: {fileID: 951612550}
   m_PrefabAsset: {fileID: 0}
@@ -14993,7 +15130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57f24a4aaa0761b45ba25e7e5108e2c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UID: 1553627694
+  UID: 1126609688
   color: {r: 1, g: 0.30588236, b: 0.9490196, a: 1}
   intensity: 1
   shadowSpread: 0.05
@@ -15727,6 +15864,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d50a0ffd15f6444e9a3c3514c5a8e59, type: 3}
+--- !u!1 &1068713228 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1240817579753376, guid: 7d50a0ffd15f6444e9a3c3514c5a8e59,
+    type: 3}
+  m_PrefabInstance: {fileID: 1068713227}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1068713229 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23147173364077182, guid: 7d50a0ffd15f6444e9a3c3514c5a8e59,
+    type: 3}
+  m_PrefabInstance: {fileID: 1068713227}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1080608536
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16716,6 +16865,47 @@ MeshRenderer:
     type: 3}
   m_PrefabInstance: {fileID: 1117751335}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1122638901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
+  m_Name: GAME_LM0
+  m_EditorClassIdentifier: 
+  resolution: 4096
+  bitmask: 1
+  id: 0
+  sortingID: 1
+  isImplicit: 1
+  area: 7836.1533
+  totalVertexCount: 0
+  vertexCounter: 0
+  sceneLodLevel: -1
+  sceneName: 
+  containsTerrains: 0
+  probes: 0
+  mode: 1
+  renderMode: 1000
+  renderDirMode: 1000
+  atlasPacker: 1000
+  computeSSS: 0
+  sssSamples: 16
+  sssDensity: 10
+  sssColor: {r: 1, g: 1, b: 1, a: 1}
+  sssScale: 1
+  fakeShadowBias: 0
+  transparentSelfShadow: 0
+  flipNormal: 0
+  parentName: 
+  overridePath: 
+  fixPos3D: 0
+  voxelSize: {x: 1, y: 1, z: 1}
+  passedFilter: 0
 --- !u!1001 &1124149931
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16777,6 +16967,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d50a0ffd15f6444e9a3c3514c5a8e59, type: 3}
+--- !u!1 &1124149932 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1240817579753376, guid: 7d50a0ffd15f6444e9a3c3514c5a8e59,
+    type: 3}
+  m_PrefabInstance: {fileID: 1124149931}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1124149933 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23147173364077182, guid: 7d50a0ffd15f6444e9a3c3514c5a8e59,
+    type: 3}
+  m_PrefabInstance: {fileID: 1124149931}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1127247391
 GameObject:
   m_ObjectHideFlags: 0
@@ -17238,6 +17440,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d50a0ffd15f6444e9a3c3514c5a8e59, type: 3}
+--- !u!1 &1153649082 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1240817579753376, guid: 7d50a0ffd15f6444e9a3c3514c5a8e59,
+    type: 3}
+  m_PrefabInstance: {fileID: 1153649081}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1153649083 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23147173364077182, guid: 7d50a0ffd15f6444e9a3c3514c5a8e59,
+    type: 3}
+  m_PrefabInstance: {fileID: 1153649081}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1179258839
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17639,6 +17853,18 @@ PrefabInstance:
 --- !u!4 &1195499250 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4836380766063774, guid: 8f657d6ae17603d41a82cc1d15e22bdc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1195499249}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1195499251 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1834478006434470, guid: 8f657d6ae17603d41a82cc1d15e22bdc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1195499249}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1195499252 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23183970665869122, guid: 8f657d6ae17603d41a82cc1d15e22bdc,
     type: 3}
   m_PrefabInstance: {fileID: 1195499249}
   m_PrefabAsset: {fileID: 0}
@@ -19491,6 +19717,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1304668839}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1304668841 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1834478006434470, guid: 8f657d6ae17603d41a82cc1d15e22bdc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1304668839}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1304668842 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23183970665869122, guid: 8f657d6ae17603d41a82cc1d15e22bdc,
+    type: 3}
+  m_PrefabInstance: {fileID: 1304668839}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1304777059
 GameObject:
   m_ObjectHideFlags: 0
@@ -19720,10 +19958,10 @@ MonoBehaviour:
   renderSettingsRTPVSceneView: 0
   renderSettingsRTPVWidth: 640
   renderSettingsRTPVHeight: 360
-  lastBakeTime: 5
+  lastBakeTime: 6
   enlightenWarningShown: 0
   enlightenWarningShown2: 0
-  lightUIDs: f357f2cc1687047106e28732b7d158a2925494c414af23b2b9dd646d028971ff43c853a4a12b35cca93c00cf4497f42b52128dd9c36da7312410a68558912a3ff5139f795e9b77cd3525f8a69ec1bb7f0bc2027c37c41b4a4d482a84906c80e125cf04a3479dd40085d8d309f5643d2d747c510dcd56bbb560690ec70cd767396a4700c7b2834afcaec08195b45b00ef9586d79423c0642c4e00a427814cdee328544a2f1095bc8dcd49611e3ac7327ccf6415a2d62f8797981fa694873f7c767fd49e391a21f3c487186d5b3f870b16997ab4553bcdb48042eabd92a954a2cbd560bc7b70de48674395bdfab3a8c00af748463954c14d9d0fcd386254f82e10b716c60801409ed0
+  lightUIDs: f357f2cc932ba31b52128dd94497f42ba93c00cfa12b35cc43c853a4028971ffb9dd646d93eb9b2e14af23b2925494c4b7d158a206e287321687047160690ec7c36da7312410a68558912a3ff5139f79cd56bbb5747c510d37ad1edef5643d2d85d8d309479dd40025cf04a30cd767395e9459e3906c80e14d482a8437c41b4a0bc2027c9ec1bb7f3525f8a65e9b77cd922780537fd49e396a4700c7f15e55ff873f7c76981fa694d62f8797cf6415a23ac7327ccd49611e1095bc8d28544a2f814cdee34e00a42723c0642c9586d794b45b00efaec08195a53461e91a21f3c4b716c60887186d5b3f870b1654f82e1095d61e4c2cb95c8918b326430fcd386254c14d9df7484639b2834afcb3a8c00a70de4867d560bc7ba954a2cb42eabd92084405653bcdb480997ab4554395bdfa01409ed0
   lights:
   - tform:
       e00: 0.6860171
@@ -19759,142 +19997,22 @@ MonoBehaviour:
       e00: -1
       e01: 0
       e02: -0.000005900859
-      e03: -38.857693
+      e03: -27.190746
       e10: 0
       e11: 1
       e12: 0
-      e13: 8.425
+      e13: 4.7
       e20: 0.000005900859
       e21: 0
       e22: -1
-      e23: -27.668276
+      e23: -36.472343
       e30: 0
       e31: 0
       e32: 0
       e33: 1
-    color: {r: 0.90720445, g: 0.3803922, b: 1, a: 1}
-    intensity: 3
-    range: 12.830991
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 0
-    cookie: {fileID: 0}
-    angle: 30
-  - tform:
-      e00: -1
-      e01: 0
-      e02: -0.000005900859
-      e03: -17.103685
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 2.212
-      e20: 0.000005900859
-      e21: 0
-      e22: -1
-      e23: -26.401403
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
-    intensity: 3
-    range: 3
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 0
-    cookie: {fileID: 0}
-    angle: 30
-  - tform:
-      e00: 1
-      e01: 0
-      e02: 0.000011265276
-      e03: -11.228672
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 3.093
-      e20: -0.000011265276
-      e21: 0
-      e22: 1
-      e23: -23.45666
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
-    intensity: 3
-    range: 3
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 0
-    cookie: {fileID: 0}
-    angle: 30
-  - tform:
-      e00: 0.9726718
-      e01: 3.6301906
-      e02: 0.000010602434
-      e03: 5.512863
-      e10: 0
-      e11: 0.0000109764205
-      e12: -3.758241
-      e13: 5.356968
-      e20: -3.6301901
-      e21: 0.9726719
-      e22: 0.0000028408122
-      e23: 3.4784355
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 0.5254457, g: 0.3820755, b: 1, a: 1}
-    intensity: 15
-    range: 5.7514734
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 1
-    cookie: {fileID: 2800000, guid: 3a66602b8cc7fdd4ab57d07b4176432b, type: 3}
-    angle: 77.62938
-  - tform:
-      e00: 0.52418643
-      e01: 0
-      e02: 0.000005905105
-      e03: -12.272282
-      e10: 0
-      e11: 0.52418643
-      e12: 0
-      e13: 1.7819297
-      e20: -0.000005905105
-      e21: 0
-      e22: 0.52418643
-      e23: -22.289413
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
-    intensity: 3
-    range: 0.87818146
+    color: {r: 1, g: 0.3066038, b: 0.9482718, a: 1}
+    intensity: 2
+    range: 5.484646
     radius: 0.05
     samples: 8
     samples2: 0
@@ -19909,15 +20027,15 @@ MonoBehaviour:
       e00: -3.7582405
       e01: -0.00002217685
       e02: -6.477031e-11
-      e03: 0.75942993
+      e03: -2.4005814
       e10: 0
       e11: 0.0000109764205
       e12: -3.758241
-      e13: 6.066968
+      e13: 4.9969683
       e20: 0.000022176846
       e21: -3.758241
       e22: -0.0000109764205
-      e23: -6.7625084
+      e23: -8.852491
       e30: 0
       e31: 0
       e32: 0
@@ -19936,78 +20054,18 @@ MonoBehaviour:
     cookie: {fileID: 2800000, guid: 3a66602b8cc7fdd4ab57d07b4176432b, type: 3}
     angle: 77.62938
   - tform:
-      e00: 0.9726718
-      e01: 3.6301906
-      e02: 0.000010602434
-      e03: 5.5391693
-      e10: 0
-      e11: 0.0000109764205
-      e12: -3.758241
-      e13: 5.8959675
-      e20: -3.6301901
-      e21: 0.9726719
-      e22: 0.0000028408122
-      e23: -1.2176895
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 0.5254457, g: 0.3820755, b: 1, a: 1}
-    intensity: 15
-    range: 5.7514734
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 1
-    cookie: {fileID: 2800000, guid: 3a66602b8cc7fdd4ab57d07b4176432b, type: 3}
-    angle: 77.62938
-  - tform:
-      e00: 0.6860171
+      e00: 1.0676744
       e01: 0
-      e02: -0.0019989416
-      e03: -12.461155
+      e02: -0.0031110286
+      e03: -8.775988
       e10: 0
-      e11: 0.68602
+      e11: 1.0676789
       e12: 0
-      e13: 2.8342805
-      e20: 0.0019989416
+      e13: 4.8987675
+      e20: 0.0031110286
       e21: 0
-      e22: 0.6860171
-      e23: -36.52099
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
-    intensity: 3
-    range: 3
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 0
-    cookie: {fileID: 0}
-    angle: 30
-  - tform:
-      e00: 1
-      e01: 0
-      e02: 0.000011265276
-      e03: -11.960667
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 2.174
-      e20: -0.000011265276
-      e21: 0
-      e22: 1
-      e23: -22.870651
+      e22: 1.0676744
+      e23: -25.984215
       e30: 0
       e31: 0
       e32: 0
@@ -20056,18 +20114,18 @@ MonoBehaviour:
     cookie: {fileID: 0}
     angle: 30
   - tform:
-      e00: 1.0676744
+      e00: 1
       e01: 0
-      e02: -0.0031110286
-      e03: -8.775988
+      e02: 0.000011265276
+      e03: -11.960667
       e10: 0
-      e11: 1.0676789
+      e11: 1
       e12: 0
-      e13: 4.8987675
-      e20: 0.0031110286
+      e13: 2.174
+      e20: -0.000011265276
       e21: 0
-      e22: 1.0676744
-      e23: -25.984215
+      e22: 1
+      e23: -22.870651
       e30: 0
       e31: 0
       e32: 0
@@ -20086,18 +20144,78 @@ MonoBehaviour:
     cookie: {fileID: 0}
     angle: 30
   - tform:
-      e00: -3.7582405
-      e01: -0.00002217685
-      e02: -6.477031e-11
-      e03: -2.4005814
+      e00: 0.6860171
+      e01: 0
+      e02: -0.0019989416
+      e03: -12.461155
+      e10: 0
+      e11: 0.68602
+      e12: 0
+      e13: 2.8342805
+      e20: 0.0019989416
+      e21: 0
+      e22: 0.6860171
+      e23: -36.52099
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
+    intensity: 3
+    range: 3
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: 0.9726718
+      e01: 3.6301906
+      e02: 0.000010602434
+      e03: 5.5391693
       e10: 0
       e11: 0.0000109764205
       e12: -3.758241
-      e13: 4.9969683
+      e13: 5.8959675
+      e20: -3.6301901
+      e21: 0.9726719
+      e22: 0.0000028408122
+      e23: -1.2176895
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 0.5254457, g: 0.3820755, b: 1, a: 1}
+    intensity: 15
+    range: 5.7514734
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 1
+    cookie: {fileID: 2800000, guid: 3a66602b8cc7fdd4ab57d07b4176432b, type: 3}
+    angle: 77.62938
+  - tform:
+      e00: -3.7582405
+      e01: -0.00002217685
+      e02: -6.477031e-11
+      e03: 0.75942993
+      e10: 0
+      e11: 0.0000109764205
+      e12: -3.758241
+      e13: 6.066968
       e20: 0.000022176846
       e21: -3.758241
       e22: -0.0000109764205
-      e23: -8.852491
+      e23: -6.7625084
       e30: 0
       e31: 0
       e32: 0
@@ -20115,6 +20233,216 @@ MonoBehaviour:
     projMode: 1
     cookie: {fileID: 2800000, guid: 3a66602b8cc7fdd4ab57d07b4176432b, type: 3}
     angle: 77.62938
+  - tform:
+      e00: -0.0031107832
+      e01: 0
+      e02: -1.0676745
+      e03: -13.898788
+      e10: 0
+      e11: 1.0676789
+      e12: 0
+      e13: 4.8987675
+      e20: 1.0676745
+      e21: 0
+      e22: -0.0031107832
+      e23: -2.4277267
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
+    intensity: 3
+    range: 3
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: 0.52418643
+      e01: 0
+      e02: 0.000005905105
+      e03: -12.272282
+      e10: 0
+      e11: 0.52418643
+      e12: 0
+      e13: 1.7819297
+      e20: -0.000005905105
+      e21: 0
+      e22: 0.52418643
+      e23: -22.289413
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
+    intensity: 3
+    range: 0.87818146
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: 0.9726718
+      e01: 3.6301906
+      e02: 0.000010602434
+      e03: 5.512863
+      e10: 0
+      e11: 0.0000109764205
+      e12: -3.758241
+      e13: 5.356968
+      e20: -3.6301901
+      e21: 0.9726719
+      e22: 0.0000028408122
+      e23: 3.4784355
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 0.5254457, g: 0.3820755, b: 1, a: 1}
+    intensity: 15
+    range: 5.7514734
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 1
+    cookie: {fileID: 2800000, guid: 3a66602b8cc7fdd4ab57d07b4176432b, type: 3}
+    angle: 77.62938
+  - tform:
+      e00: 1
+      e01: 0
+      e02: 0.000011265276
+      e03: -11.228672
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 3.093
+      e20: -0.000011265276
+      e21: 0
+      e22: 1
+      e23: -23.45666
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
+    intensity: 3
+    range: 3
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: -1
+      e01: 0
+      e02: -0.000005900859
+      e03: -17.103685
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 2.212
+      e20: 0.000005900859
+      e21: 0
+      e22: -1
+      e23: -26.401403
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
+    intensity: 3
+    range: 3
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: -1
+      e01: 0
+      e02: -0.000005900859
+      e03: -38.857693
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 8.425
+      e20: 0.000005900859
+      e21: 0
+      e22: -1
+      e23: -27.668276
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 0.90720445, g: 0.3803922, b: 1, a: 1}
+    intensity: 3
+    range: 12.830991
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: 0.6860171
+      e01: 0
+      e02: -0.0019989416
+      e03: -11.693317
+      e10: 0
+      e11: 0.68602
+      e12: 0
+      e13: 1.9562805
+      e20: 0.0019989416
+      e21: 0
+      e22: 0.6860171
+      e23: -35.624985
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
+    intensity: 3
+    range: 3
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
   - tform:
       e00: 0.60566556
       e01: 0
@@ -20236,18 +20564,408 @@ MonoBehaviour:
     cookie: {fileID: 0}
     angle: 30
   - tform:
-      e00: -3.7582405
-      e01: -0.00002217685
-      e02: -6.477031e-11
-      e03: -5.237591
+      e00: -0.8397553
+      e01: 0
+      e02: -0.0000049552777
+      e03: -17.267479
+      e10: 0
+      e11: 0.8397553
+      e12: 0
+      e13: 2.1659582
+      e20: 0.0000049552777
+      e21: 0
+      e22: -0.8397553
+      e23: -25.017164
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
+    intensity: 1
+    range: 3
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: 0.9726718
+      e01: 3.6301906
+      e02: 0.000010602434
+      e03: 7.6283836
       e10: 0
       e11: 0.0000109764205
       e12: -3.758241
-      e13: 5.010968
+      e13: 5.370968
+      e20: -3.6301901
+      e21: 0.9726719
+      e22: 0.0000028408122
+      e23: 1.1082039
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 0.5254457, g: 0.3820755, b: 1, a: 1}
+    intensity: 15
+    range: 5.7514734
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 1
+    cookie: {fileID: 2800000, guid: 3a66602b8cc7fdd4ab57d07b4176432b, type: 3}
+    angle: 77.62938
+  - tform:
+      e00: -0.0037755575
+      e01: 0
+      e02: -1.2958366
+      e03: -12.598274
+      e10: 0
+      e11: 1.2958419
+      e12: 0
+      e13: 5.086774
+      e20: 1.2958366
+      e21: 0
+      e22: -0.0037755575
+      e23: -2.0728645
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
+    intensity: 3
+    range: 3
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: 0.8397553
+      e01: 0
+      e02: 0.000009460076
+      e03: -11.796879
+      e10: 0
+      e11: 0.8397553
+      e12: 0
+      e13: 2.1279583
+      e20: -0.000009460076
+      e21: 0
+      e22: 0.8397553
+      e23: -24.254889
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
+    intensity: 1
+    range: 3
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: 0.68602
+      e01: 0
+      e02: 0.000007728205
+      e03: -11.57509
+      e10: 0
+      e11: 0.68602
+      e12: 0
+      e13: 1.9562805
+      e20: -0.000007728205
+      e21: 0
+      e22: 0.68602
+      e23: -21.747984
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
+    intensity: 3
+    range: 3
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: -1
+      e01: 0
+      e02: -0.000005900859
+      e03: 10.019501
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 9.44
+      e20: 0.000005900859
+      e21: 0
+      e22: -1
+      e23: 5.0274353
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 0.90720445, g: 0.3803922, b: 1, a: 1}
+    intensity: 3
+    range: 12.830991
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: 0.9999957
+      e01: 0
+      e02: -0.002913824
+      e03: -8.763687
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 4.843
+      e20: 0.002913824
+      e21: 0
+      e22: 0.9999957
+      e23: -31.68747
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
+    intensity: 3
+    range: 3
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: 0.9726718
+      e01: 3.6301906
+      e02: 0.000010602434
+      e03: 2.6762276
+      e10: 0
+      e11: 0.0000109764205
+      e12: -3.758241
+      e13: 6.4269676
+      e20: -3.6301901
+      e21: 0.9726719
+      e22: 0.0000028408122
+      e23: 5.9898643
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 0.5254457, g: 0.3820755, b: 1, a: 1}
+    intensity: 15
+    range: 5.7514734
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 1
+    cookie: {fileID: 2800000, guid: 3a66602b8cc7fdd4ab57d07b4176432b, type: 3}
+    angle: 77.62938
+  - tform:
+      e00: -0.002385785
+      e01: 0
+      e02: -0.81884265
+      e03: -6.4805374
+      e10: 0
+      e11: 0.81884605
+      e12: 0
+      e13: 4.693729
+      e20: 0.81884265
+      e21: 0
+      e22: -0.002385785
+      e23: -2.7135353
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
+    intensity: 3
+    range: 3
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: -1
+      e01: 0
+      e02: -0.000005900859
+      e03: -39.276768
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 3.95
+      e20: 0.000005900859
+      e21: 0
+      e22: -1
+      e23: -40.176273
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.30588236, b: 0.9490196, a: 1}
+    intensity: 1
+    range: 10
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: 0.81884253
+      e01: 0
+      e02: -0.0023859732
+      e03: -8.481802
+      e10: 0
+      e11: 0.81884605
+      e12: 0
+      e13: 4.693729
+      e20: 0.0023859732
+      e21: 0
+      e22: 0.81884253
+      e23: -34.422474
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
+    intensity: 3
+    range: 3
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: 0.81884253
+      e01: 0
+      e02: -0.0023859732
+      e03: -9.22278
+      e10: 0
+      e11: 0.81884605
+      e12: 0
+      e13: 4.693729
+      e20: 0.0023859732
+      e21: 0
+      e22: 0.81884253
+      e23: -30.95747
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
+    intensity: 3
+    range: 3
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: 0.7286946
+      e01: 0
+      e02: 0.000008208946
+      e03: -12.168316
+      e10: 0
+      e11: 0.7286946
+      e12: 0
+      e13: 1.9504445
+      e20: -0.000008208946
+      e21: 0
+      e22: 0.7286946
+      e23: -23.509663
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
+    intensity: 3
+    range: 1.1734486
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: -3.7582405
+      e01: -0.00002217685
+      e02: -6.477031e-11
+      e03: -6.943508
+      e10: 0
+      e11: 0.0000109764205
+      e12: -3.758241
+      e13: 5.535968
       e20: 0.000022176846
       e21: -3.758241
       e22: -0.0000109764205
-      e23: -10.282473
+      e23: -7.662464
       e30: 0
       e31: 0
       e32: 0
@@ -20299,15 +21017,15 @@ MonoBehaviour:
       e00: -3.7582405
       e01: -0.00002217685
       e02: -6.477031e-11
-      e03: -6.943508
+      e03: -5.237591
       e10: 0
       e11: 0.0000109764205
       e12: -3.758241
-      e13: 5.535968
+      e13: 5.010968
       e20: 0.000022176846
       e21: -3.758241
       e22: -0.0000109764205
-      e23: -7.662464
+      e23: -10.282473
       e30: 0
       e31: 0
       e32: 0
@@ -20326,48 +21044,18 @@ MonoBehaviour:
     cookie: {fileID: 2800000, guid: 3a66602b8cc7fdd4ab57d07b4176432b, type: 3}
     angle: 77.62938
   - tform:
-      e00: 0.7286946
+      e00: -0.002385785
       e01: 0
-      e02: 0.000008208946
-      e03: -12.168316
-      e10: 0
-      e11: 0.7286946
-      e12: 0
-      e13: 1.9504445
-      e20: -0.000008208946
-      e21: 0
-      e22: 0.7286946
-      e23: -23.509663
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
-    intensity: 3
-    range: 1.1734486
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 0
-    cookie: {fileID: 0}
-    angle: 30
-  - tform:
-      e00: 0.81884253
-      e01: 0
-      e02: -0.0023859732
-      e03: -9.22278
+      e02: -0.81884265
+      e03: -9.945536
       e10: 0
       e11: 0.81884605
       e12: 0
       e13: 4.693729
-      e20: 0.0023859732
+      e20: 0.81884265
       e21: 0
-      e22: 0.81884253
-      e23: -30.95747
+      e22: -0.002385785
+      e23: -3.4545135
       e30: 0
       e31: 0
       e32: 0
@@ -20386,25 +21074,25 @@ MonoBehaviour:
     cookie: {fileID: 0}
     angle: 30
   - tform:
-      e00: 0.81884253
+      e00: -0.60566556
       e01: 0
-      e02: -0.0023859732
-      e03: -8.481802
+      e02: -0.000003573947
+      e03: -16.906647
       e10: 0
-      e11: 0.81884605
+      e11: 0.60566556
       e12: 0
-      e13: 4.693729
-      e20: 0.0023859732
+      e13: 1.9730684
+      e20: 0.000003573947
       e21: 0
-      e22: 0.81884253
-      e23: -34.422474
+      e22: -0.60566556
+      e23: -24.560743
       e30: 0
       e31: 0
       e32: 0
       e33: 1
     color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
     intensity: 3
-    range: 3
+    range: 1.3
     radius: 0.05
     samples: 8
     samples2: 0
@@ -20415,276 +21103,6 @@ MonoBehaviour:
     projMode: 0
     cookie: {fileID: 0}
     angle: 30
-  - tform:
-      e00: -1
-      e01: 0
-      e02: -0.000005900859
-      e03: -39.276768
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 3.95
-      e20: 0.000005900859
-      e21: 0
-      e22: -1
-      e23: -40.176273
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 1, g: 0.30588236, b: 0.9490196, a: 1}
-    intensity: 1
-    range: 10
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 0
-    cookie: {fileID: 0}
-    angle: 30
-  - tform:
-      e00: 0.9999957
-      e01: 0
-      e02: -0.002913824
-      e03: -8.763687
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 4.843
-      e20: 0.002913824
-      e21: 0
-      e22: 0.9999957
-      e23: -31.68747
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
-    intensity: 3
-    range: 3
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 0
-    cookie: {fileID: 0}
-    angle: 30
-  - tform:
-      e00: -1
-      e01: 0
-      e02: -0.000005900859
-      e03: 10.019501
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 9.44
-      e20: 0.000005900859
-      e21: 0
-      e22: -1
-      e23: 5.0274353
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 0.90720445, g: 0.3803922, b: 1, a: 1}
-    intensity: 3
-    range: 12.830991
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 0
-    cookie: {fileID: 0}
-    angle: 30
-  - tform:
-      e00: 0.68602
-      e01: 0
-      e02: 0.000007728205
-      e03: -11.57509
-      e10: 0
-      e11: 0.68602
-      e12: 0
-      e13: 1.9562805
-      e20: -0.000007728205
-      e21: 0
-      e22: 0.68602
-      e23: -21.747984
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
-    intensity: 3
-    range: 3
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 0
-    cookie: {fileID: 0}
-    angle: 30
-  - tform:
-      e00: 0.8397553
-      e01: 0
-      e02: 0.000009460076
-      e03: -11.796879
-      e10: 0
-      e11: 0.8397553
-      e12: 0
-      e13: 2.1279583
-      e20: -0.000009460076
-      e21: 0
-      e22: 0.8397553
-      e23: -24.254889
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
-    intensity: 1
-    range: 3
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 0
-    cookie: {fileID: 0}
-    angle: 30
-  - tform:
-      e00: 0.9726718
-      e01: 3.6301906
-      e02: 0.000010602434
-      e03: 7.6283836
-      e10: 0
-      e11: 0.0000109764205
-      e12: -3.758241
-      e13: 5.370968
-      e20: -3.6301901
-      e21: 0.9726719
-      e22: 0.0000028408122
-      e23: 1.1082039
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 0.5254457, g: 0.3820755, b: 1, a: 1}
-    intensity: 15
-    range: 5.7514734
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 1
-    cookie: {fileID: 2800000, guid: 3a66602b8cc7fdd4ab57d07b4176432b, type: 3}
-    angle: 77.62938
-  - tform:
-      e00: -0.8397553
-      e01: 0
-      e02: -0.0000049552777
-      e03: -17.267479
-      e10: 0
-      e11: 0.8397553
-      e12: 0
-      e13: 2.1659582
-      e20: 0.0000049552777
-      e21: 0
-      e22: -0.8397553
-      e23: -25.017164
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
-    intensity: 1
-    range: 3
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 0
-    cookie: {fileID: 0}
-    angle: 30
-  - tform:
-      e00: 0.6860171
-      e01: 0
-      e02: -0.0019989416
-      e03: -11.693317
-      e10: 0
-      e11: 0.68602
-      e12: 0
-      e13: 1.9562805
-      e20: 0.0019989416
-      e21: 0
-      e22: 0.6860171
-      e23: -35.624985
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
-    intensity: 3
-    range: 3
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 0
-    cookie: {fileID: 0}
-    angle: 30
-  - tform:
-      e00: 0.9726718
-      e01: 3.6301906
-      e02: 0.000010602434
-      e03: 2.6762276
-      e10: 0
-      e11: 0.0000109764205
-      e12: -3.758241
-      e13: 6.4269676
-      e20: -3.6301901
-      e21: 0.9726719
-      e22: 0.0000028408122
-      e23: 5.9898643
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 0.5254457, g: 0.3820755, b: 1, a: 1}
-    intensity: 15
-    range: 5.7514734
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 1
-    cookie: {fileID: 2800000, guid: 3a66602b8cc7fdd4ab57d07b4176432b, type: 3}
-    angle: 77.62938
   - tform:
       e00: 0.81884253
       e01: 0
@@ -20716,18 +21134,408 @@ MonoBehaviour:
     cookie: {fileID: 0}
     angle: 30
   - tform:
-      e00: 0.9999957
+      e00: -0.002385785
       e01: 0
-      e02: -0.002913824
-      e03: -9.484673
+      e02: -0.81884265
+      e03: -7.9095364
+      e10: 0
+      e11: 0.81884605
+      e12: 0
+      e13: 4.693729
+      e20: 0.81884265
+      e21: 0
+      e22: -0.002385785
+      e23: -3.4545288
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
+    intensity: 3
+    range: 3
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: -0.7286946
+      e01: 0
+      e02: -0.000004299924
+      e03: -17.367044
+      e10: 0
+      e11: 0.7286946
+      e12: 0
+      e13: 1.9884443
+      e20: 0.000004299924
+      e21: 0
+      e22: -0.7286946
+      e23: -26.928387
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
+    intensity: 3
+    range: 1.7930222
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: -3.7582405
+      e01: -0.00002217685
+      e02: -6.477031e-11
+      e03: -0.30059433
+      e10: 0
+      e11: 0.0000109764205
+      e12: -3.758241
+      e13: 6.026968
+      e20: 0.000022176846
+      e21: -3.758241
+      e22: -0.0000109764205
+      e23: -10.902504
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 0.9622642, g: 0.7170029, b: 0.30411178, a: 1}
+    intensity: 13
+    range: 5.7514734
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 1
+    cookie: {fileID: 2800000, guid: 3a66602b8cc7fdd4ab57d07b4176432b, type: 3}
+    angle: 77.62938
+  - tform:
+      e00: 0.9726718
+      e01: 3.6301906
+      e02: 0.000010602434
+      e03: 4.5417366
+      e10: 0
+      e11: 0.0000109764205
+      e12: -3.758241
+      e13: 6.146968
+      e20: -3.6301901
+      e21: 0.9726719
+      e22: 0.0000028408122
+      e23: -3.2522202
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 0.5254457, g: 0.3820755, b: 1, a: 1}
+    intensity: 15
+    range: 5.7514734
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 1
+    cookie: {fileID: 2800000, guid: 3a66602b8cc7fdd4ab57d07b4176432b, type: 3}
+    angle: 77.62938
+  - tform:
+      e00: -1
+      e01: 0
+      e02: -0.000005900859
+      e03: -17.09757
       e10: 0
       e11: 1
       e12: 0
-      e13: 4.843
-      e20: 0.002913824
+      e13: 4.95
+      e20: 0.000005900859
       e21: 0
-      e22: 0.9999957
-      e23: -29.262465
+      e22: -1
+      e23: -6.7724037
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
+    intensity: 3
+    range: 13
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: -1
+      e01: 0
+      e02: -0.000005900859
+      e03: -10.963617
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 4.7790003
+      e20: 0.000005900859
+      e21: 0
+      e22: -1
+      e23: -14.727442
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
+    intensity: 3
+    range: 13
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: 0.7286946
+      e01: 0
+      e02: 0.000008208946
+      e03: -11.697306
+      e10: 0
+      e11: 0.7286946
+      e12: 0
+      e13: 1.9504445
+      e20: -0.000008208946
+      e21: 0
+      e22: 0.7286946
+      e23: -22.343672
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
+    intensity: 3
+    range: 1.7930222
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: -3.7582405
+      e01: -0.00002217685
+      e02: -6.477031e-11
+      e03: -8.650568
+      e10: 0
+      e11: 0.0000109764205
+      e12: -3.758241
+      e13: 5.786968
+      e20: 0.000022176846
+      e21: -3.758241
+      e22: -0.0000109764205
+      e23: -6.172455
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 0.9622642, g: 0.7170029, b: 0.30411178, a: 1}
+    intensity: 13
+    range: 5.7514734
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 1
+    cookie: {fileID: 2800000, guid: 3a66602b8cc7fdd4ab57d07b4176432b, type: 3}
+    angle: 77.62938
+  - tform:
+      e00: 0.6860171
+      e01: 0
+      e02: -0.0019989416
+      e03: -11.604008
+      e10: 0
+      e11: 0.68602
+      e12: 0
+      e13: 1.9562805
+      e20: 0.0019989416
+      e21: 0
+      e22: 0.6860171
+      e23: -32.30471
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
+    intensity: 3
+    range: 3
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: 0.9726718
+      e01: 3.6301906
+      e02: 0.000010602434
+      e03: 6.9495087
+      e10: 0
+      e11: 0.0000109764205
+      e12: -3.758241
+      e13: 6.3869677
+      e20: -3.6301901
+      e21: 0.9726719
+      e22: 0.0000028408122
+      e23: 6.0374527
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 0.5254457, g: 0.3820755, b: 1, a: 1}
+    intensity: 15
+    range: 5.7514734
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 1
+    cookie: {fileID: 2800000, guid: 3a66602b8cc7fdd4ab57d07b4176432b, type: 3}
+    angle: 77.62938
+  - tform:
+      e00: 0.7286915
+      e01: 0
+      e02: -0.0021232879
+      e03: -12.192078
+      e10: 0
+      e11: 0.7286946
+      e12: 0
+      e13: 1.9504445
+      e20: 0.0021232879
+      e21: 0
+      e22: 0.7286915
+      e23: -34.06812
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
+    intensity: 3
+    range: 1.1734486
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: 0.7286915
+      e01: 0
+      e02: -0.0021232879
+      e03: -11.724478
+      e10: 0
+      e11: 0.7286946
+      e12: 0
+      e13: 1.9504445
+      e20: 0.0021232879
+      e21: 0
+      e22: 0.7286915
+      e23: -32.900757
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
+    intensity: 3
+    range: 1.7930222
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: -1.2837
+      e01: 0
+      e02: -0.0000075749326
+      e03: -26.227684
+      e10: 0
+      e11: 1.2837
+      e12: 0
+      e13: 5.56
+      e20: 0.0000075749326
+      e21: 0
+      e22: -1.2837
+      e23: -25.879349
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.3066038, b: 0.9482718, a: 1}
+    intensity: 2
+    range: 5.484646
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: -0.68602
+      e01: 0
+      e02: -0.0000040481073
+      e03: -17.82826
+      e10: 0
+      e11: 0.68602
+      e12: 0
+      e13: 2.8722804
+      e20: 0.0000040481073
+      e21: 0
+      e22: -0.68602
+      e23: -27.407852
       e30: 0
       e31: 0
       e32: 0
@@ -20776,18 +21584,18 @@ MonoBehaviour:
     cookie: {fileID: 0}
     angle: 30
   - tform:
-      e00: -0.68602
+      e00: -0.0029135942
       e01: 0
-      e02: -0.0000040481073
-      e03: -17.82826
+      e02: -0.9999959
+      e03: -9.215536
       e10: 0
-      e11: 0.68602
+      e11: 1
       e12: 0
-      e13: 2.8722804
-      e20: 0.0000040481073
+      e13: 4.843
+      e20: 0.9999959
       e21: 0
-      e22: -0.68602
-      e23: -27.407852
+      e22: -0.0029135942
+      e23: -2.9954147
       e30: 0
       e31: 0
       e32: 0
@@ -20795,396 +21603,6 @@ MonoBehaviour:
     color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
     intensity: 3
     range: 3
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 0
-    cookie: {fileID: 0}
-    angle: 30
-  - tform:
-      e00: -1.2837
-      e01: 0
-      e02: -0.0000075749326
-      e03: -26.227684
-      e10: 0
-      e11: 1.2837
-      e12: 0
-      e13: 5.56
-      e20: 0.0000075749326
-      e21: 0
-      e22: -1.2837
-      e23: -25.879349
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 1, g: 0.3066038, b: 0.9482718, a: 1}
-    intensity: 2
-    range: 5.484646
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 0
-    cookie: {fileID: 0}
-    angle: 30
-  - tform:
-      e00: 0.7286915
-      e01: 0
-      e02: -0.0021232879
-      e03: -11.724478
-      e10: 0
-      e11: 0.7286946
-      e12: 0
-      e13: 1.9504445
-      e20: 0.0021232879
-      e21: 0
-      e22: 0.7286915
-      e23: -32.900757
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
-    intensity: 3
-    range: 1.7930222
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 0
-    cookie: {fileID: 0}
-    angle: 30
-  - tform:
-      e00: 0.7286915
-      e01: 0
-      e02: -0.0021232879
-      e03: -12.192078
-      e10: 0
-      e11: 0.7286946
-      e12: 0
-      e13: 1.9504445
-      e20: 0.0021232879
-      e21: 0
-      e22: 0.7286915
-      e23: -34.06812
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
-    intensity: 3
-    range: 1.1734486
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 0
-    cookie: {fileID: 0}
-    angle: 30
-  - tform:
-      e00: 0.9726718
-      e01: 3.6301906
-      e02: 0.000010602434
-      e03: 6.9495087
-      e10: 0
-      e11: 0.0000109764205
-      e12: -3.758241
-      e13: 6.3869677
-      e20: -3.6301901
-      e21: 0.9726719
-      e22: 0.0000028408122
-      e23: 6.0374527
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 0.5254457, g: 0.3820755, b: 1, a: 1}
-    intensity: 15
-    range: 5.7514734
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 1
-    cookie: {fileID: 2800000, guid: 3a66602b8cc7fdd4ab57d07b4176432b, type: 3}
-    angle: 77.62938
-  - tform:
-      e00: 0.6860171
-      e01: 0
-      e02: -0.0019989416
-      e03: -11.604008
-      e10: 0
-      e11: 0.68602
-      e12: 0
-      e13: 1.9562805
-      e20: 0.0019989416
-      e21: 0
-      e22: 0.6860171
-      e23: -32.30471
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
-    intensity: 3
-    range: 3
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 0
-    cookie: {fileID: 0}
-    angle: 30
-  - tform:
-      e00: -3.7582405
-      e01: -0.00002217685
-      e02: -6.477031e-11
-      e03: -8.650568
-      e10: 0
-      e11: 0.0000109764205
-      e12: -3.758241
-      e13: 5.786968
-      e20: 0.000022176846
-      e21: -3.758241
-      e22: -0.0000109764205
-      e23: -6.172455
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 0.9622642, g: 0.7170029, b: 0.30411178, a: 1}
-    intensity: 13
-    range: 5.7514734
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 1
-    cookie: {fileID: 2800000, guid: 3a66602b8cc7fdd4ab57d07b4176432b, type: 3}
-    angle: 77.62938
-  - tform:
-      e00: 0.7286946
-      e01: 0
-      e02: 0.000008208946
-      e03: -11.697306
-      e10: 0
-      e11: 0.7286946
-      e12: 0
-      e13: 1.9504445
-      e20: -0.000008208946
-      e21: 0
-      e22: 0.7286946
-      e23: -22.343672
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
-    intensity: 3
-    range: 1.7930222
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 0
-    cookie: {fileID: 0}
-    angle: 30
-  - tform:
-      e00: -1
-      e01: 0
-      e02: -0.000005900859
-      e03: -10.963617
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 4.7790003
-      e20: 0.000005900859
-      e21: 0
-      e22: -1
-      e23: -14.727442
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
-    intensity: 3
-    range: 13
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 0
-    cookie: {fileID: 0}
-    angle: 30
-  - tform:
-      e00: -1
-      e01: 0
-      e02: -0.000005900859
-      e03: -17.09757
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 4.95
-      e20: 0.000005900859
-      e21: 0
-      e22: -1
-      e23: -6.7724037
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
-    intensity: 3
-    range: 13
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 0
-    cookie: {fileID: 0}
-    angle: 30
-  - tform:
-      e00: 0.9726718
-      e01: 3.6301906
-      e02: 0.000010602434
-      e03: 4.5417366
-      e10: 0
-      e11: 0.0000109764205
-      e12: -3.758241
-      e13: 6.146968
-      e20: -3.6301901
-      e21: 0.9726719
-      e22: 0.0000028408122
-      e23: -3.2522202
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 0.5254457, g: 0.3820755, b: 1, a: 1}
-    intensity: 15
-    range: 5.7514734
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 1
-    cookie: {fileID: 2800000, guid: 3a66602b8cc7fdd4ab57d07b4176432b, type: 3}
-    angle: 77.62938
-  - tform:
-      e00: -3.7582405
-      e01: -0.00002217685
-      e02: -6.477031e-11
-      e03: -0.30059433
-      e10: 0
-      e11: 0.0000109764205
-      e12: -3.758241
-      e13: 6.026968
-      e20: 0.000022176846
-      e21: -3.758241
-      e22: -0.0000109764205
-      e23: -10.902504
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 0.9622642, g: 0.7170029, b: 0.30411178, a: 1}
-    intensity: 13
-    range: 5.7514734
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 1
-    cookie: {fileID: 2800000, guid: 3a66602b8cc7fdd4ab57d07b4176432b, type: 3}
-    angle: 77.62938
-  - tform:
-      e00: -0.7286946
-      e01: 0
-      e02: -0.000004299924
-      e03: -17.367044
-      e10: 0
-      e11: 0.7286946
-      e12: 0
-      e13: 1.9884443
-      e20: 0.000004299924
-      e21: 0
-      e22: -0.7286946
-      e23: -26.928387
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
-    intensity: 3
-    range: 1.7930222
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 0
-    cookie: {fileID: 0}
-    angle: 30
-  - tform:
-      e00: -0.60566556
-      e01: 0
-      e02: -0.000003573947
-      e03: -16.906647
-      e10: 0
-      e11: 0.60566556
-      e12: 0
-      e13: 1.9730684
-      e20: 0.000003573947
-      e21: 0
-      e22: -0.60566556
-      e23: -24.560743
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
-    intensity: 3
-    range: 1.3
     radius: 0.05
     samples: 8
     samples2: 0
@@ -21229,7 +21647,37 @@ MonoBehaviour:
       e00: -1
       e01: 0
       e02: -0.000005900859
-      e03: -23.60972
+      e03: 1.6294975
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 3.8579998
+      e20: 0.000005900859
+      e21: 0
+      e22: -1
+      e23: 5.1824837
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 0.30588233, g: 0.3396682, b: 1, a: 1}
+    intensity: 2
+    range: 5.484646
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: -1
+      e01: 0
+      e02: -0.000005900859
+      e03: -23.820698
       e10: 0
       e11: 1
       e12: 0
@@ -21237,7 +21685,7 @@ MonoBehaviour:
       e20: 0.000005900859
       e21: 0
       e22: -1
-      e23: -32.082367
+      e23: -28.542364
       e30: 0
       e31: 0
       e32: 0
@@ -21286,18 +21734,18 @@ MonoBehaviour:
     cookie: {fileID: 0}
     angle: 30
   - tform:
-      e00: -0.52418643
+      e00: 0.52418417
       e01: 0
-      e02: -0.00000309315
-      e03: -16.792068
+      e02: -0.0015273871
+      e03: -12.29961
       e10: 0
       e11: 0.52418643
       e12: 0
-      e13: 1.8199296
-      e20: 0.00000309315
+      e13: 1.7819297
+      e20: 0.0015273871
       e21: 0
-      e22: -0.52418643
-      e23: -26.98264
+      e22: 0.52418417
+      e23: -32.84818
       e30: 0
       e31: 0
       e32: 0
@@ -21316,55 +21764,85 @@ MonoBehaviour:
     cookie: {fileID: 0}
     angle: 30
   - tform:
-      e00: -1
+      e00: -0.0029135942
       e01: 0
-      e02: -0.000005900859
-      e03: -16.187548
+      e02: -0.9999959
+      e03: -11.640539
       e10: 0
       e11: 1
       e12: 0
-      e13: 9.004999
+      e13: 4.843
+      e20: 0.9999959
+      e21: 0
+      e22: -0.0029135942
+      e23: -3.7164001
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
+    intensity: 3
+    range: 3
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: -0.0029135942
+      e01: 0
+      e02: -0.9999959
+      e03: -6.890625
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 4.843
+      e20: 0.9999959
+      e21: 0
+      e22: -0.0029135942
+      e23: -3.7164307
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
+    intensity: 3
+    range: 3
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: -1
+      e01: 0
+      e02: -0.000005900859
+      e03: -33.3668
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 3.95
       e20: 0.000005900859
       e21: 0
       e22: -1
-      e23: -3.10841
+      e23: -45.454308
       e30: 0
       e31: 0
       e32: 0
       e33: 1
-    color: {r: 1, g: 0.71242243, b: 0.3803922, a: 1}
-    intensity: 3
-    range: 12.830991
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 0
-    cookie: {fileID: 0}
-    angle: 30
-  - tform:
-      e00: 0.8397517
-      e01: 0
-      e02: -0.0024468992
-      e03: -11.81846
-      e10: 0
-      e11: 0.8397553
-      e12: 0
-      e13: 2.1279583
-      e20: 0.0024468992
-      e21: 0
-      e22: 0.8397517
-      e23: -34.812256
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
+    color: {r: 1, g: 0.30588236, b: 0.9490196, a: 1}
     intensity: 1
-    range: 3
+    range: 10
     radius: 0.05
     samples: 8
     samples2: 0
@@ -21376,114 +21854,24 @@ MonoBehaviour:
     cookie: {fileID: 0}
     angle: 30
   - tform:
-      e00: 1.0676744
-      e01: 0
-      e02: -0.0031110286
-      e03: -8.195993
-      e10: 0
-      e11: 1.0676789
-      e12: 0
-      e13: 4.8987675
-      e20: 0.0031110286
-      e21: 0
-      e22: 1.0676744
-      e23: -27.00422
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
-    intensity: 3
-    range: 3
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 0
-    cookie: {fileID: 0}
-    angle: 30
-  - tform:
-      e00: -0.7286946
-      e01: 0
-      e02: -0.000004299924
-      e03: -16.896036
-      e10: 0
-      e11: 0.7286946
-      e12: 0
-      e13: 1.9884443
-      e20: 0.000004299924
-      e21: 0
-      e22: -0.7286946
-      e23: -25.76239
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
-    intensity: 3
-    range: 1.1734486
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 0
-    cookie: {fileID: 0}
-    angle: 30
-  - tform:
-      e00: 0.68602
-      e01: 0
-      e02: 0.000007728205
-      e03: -11.236105
-      e10: 0
-      e11: 0.68602
-      e12: 0
-      e13: 2.8342805
-      e20: -0.000007728205
-      e21: 0
-      e22: 0.68602
-      e23: -24.458984
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
-    intensity: 3
-    range: 3
-    radius: 0.05
-    samples: 8
-    samples2: 0
-    bitmask: 0
-    bakeToIndirect: 0
-    selfShadow: 0
-    realisticFalloff: 0
-    projMode: 0
-    cookie: {fileID: 0}
-    angle: 30
-  - tform:
-      e00: -3.7582405
-      e01: -0.00002217685
-      e02: -6.477031e-11
-      e03: -4.160568
+      e00: 0.9726718
+      e01: 3.6301906
+      e02: 0.000010602434
+      e03: 3.9495773
       e10: 0
       e11: 0.0000109764205
       e12: -3.758241
-      e13: 5.535968
-      e20: 0.000022176846
-      e21: -3.758241
-      e22: -0.0000109764205
-      e23: -6.7624817
+      e13: 5.8959675
+      e20: -3.6301901
+      e21: 0.9726719
+      e22: 0.0000028408122
+      e23: 1.2374992
       e30: 0
       e31: 0
       e32: 0
       e33: 1
-    color: {r: 0.9622642, g: 0.7170029, b: 0.30411178, a: 1}
-    intensity: 13
+    color: {r: 0.5254457, g: 0.3820755, b: 1, a: 1}
+    intensity: 15
     range: 5.7514734
     radius: 0.05
     samples: 8
@@ -21496,18 +21884,18 @@ MonoBehaviour:
     cookie: {fileID: 2800000, guid: 3a66602b8cc7fdd4ab57d07b4176432b, type: 3}
     angle: 77.62938
   - tform:
-      e00: 0.9999957
+      e00: 0.6860171
       e01: 0
-      e02: -0.002913824
-      e03: -11.986296
+      e02: -0.0019989416
+      e03: -12.84215
       e10: 0
-      e11: 1
+      e11: 0.68602
       e12: 0
-      e13: 2.174
-      e20: 0.002913824
+      e13: 2.0002804
+      e20: 0.0019989416
       e21: 0
-      e22: 0.9999957
-      e23: -33.428505
+      e22: 0.6860171
+      e23: -35.641987
       e30: 0
       e31: 0
       e32: 0
@@ -21556,18 +21944,18 @@ MonoBehaviour:
     cookie: {fileID: 0}
     angle: 30
   - tform:
-      e00: 0.6860171
+      e00: 0.9999957
       e01: 0
-      e02: -0.0019989416
-      e03: -12.84215
+      e02: -0.002913824
+      e03: -9.484673
       e10: 0
-      e11: 0.68602
+      e11: 1
       e12: 0
-      e13: 2.0002804
-      e20: 0.0019989416
+      e13: 4.843
+      e20: 0.002913824
       e21: 0
-      e22: 0.6860171
-      e23: -35.641987
+      e22: 0.9999957
+      e23: -29.262465
       e30: 0
       e31: 0
       e32: 0
@@ -21586,25 +21974,25 @@ MonoBehaviour:
     cookie: {fileID: 0}
     angle: 30
   - tform:
-      e00: 0.9726718
-      e01: 3.6301906
-      e02: 0.000010602434
-      e03: 3.9495773
+      e00: 0.9999957
+      e01: 0
+      e02: -0.002913824
+      e03: -11.986296
       e10: 0
-      e11: 0.0000109764205
-      e12: -3.758241
-      e13: 5.8959675
-      e20: -3.6301901
-      e21: 0.9726719
-      e22: 0.0000028408122
-      e23: 1.2374992
+      e11: 1
+      e12: 0
+      e13: 2.174
+      e20: 0.002913824
+      e21: 0
+      e22: 0.9999957
+      e23: -33.428505
       e30: 0
       e31: 0
       e32: 0
       e33: 1
-    color: {r: 0.5254457, g: 0.3820755, b: 1, a: 1}
-    intensity: 15
-    range: 5.7514734
+    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
+    intensity: 3
+    range: 3
     radius: 0.05
     samples: 8
     samples2: 0
@@ -21612,22 +22000,202 @@ MonoBehaviour:
     bakeToIndirect: 0
     selfShadow: 0
     realisticFalloff: 0
-    projMode: 1
-    cookie: {fileID: 2800000, guid: 3a66602b8cc7fdd4ab57d07b4176432b, type: 3}
-    angle: 77.62938
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
   - tform:
-      e00: 0.52418417
+      e00: 0.68602
       e01: 0
-      e02: -0.0015273871
-      e03: -12.29961
+      e02: 0.000007728205
+      e03: -11.236105
+      e10: 0
+      e11: 0.68602
+      e12: 0
+      e13: 2.8342805
+      e20: -0.000007728205
+      e21: 0
+      e22: 0.68602
+      e23: -24.458984
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
+    intensity: 3
+    range: 3
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: -0.7286946
+      e01: 0
+      e02: -0.000004299924
+      e03: -16.896036
+      e10: 0
+      e11: 0.7286946
+      e12: 0
+      e13: 1.9884443
+      e20: 0.000004299924
+      e21: 0
+      e22: -0.7286946
+      e23: -25.76239
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
+    intensity: 3
+    range: 1.1734486
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: 1.0676744
+      e01: 0
+      e02: -0.0031110286
+      e03: -8.195993
+      e10: 0
+      e11: 1.0676789
+      e12: 0
+      e13: 4.8987675
+      e20: 0.0031110286
+      e21: 0
+      e22: 1.0676744
+      e23: -27.00422
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
+    intensity: 3
+    range: 3
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: 0.8397517
+      e01: 0
+      e02: -0.0024468992
+      e03: -11.81846
+      e10: 0
+      e11: 0.8397553
+      e12: 0
+      e13: 2.1279583
+      e20: 0.0024468992
+      e21: 0
+      e22: 0.8397517
+      e23: -34.812256
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
+    intensity: 1
+    range: 3
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: -0.0031107832
+      e01: 0
+      e02: -1.0676745
+      e03: -14.918791
+      e10: 0
+      e11: 1.0676789
+      e12: 0
+      e13: 4.8987675
+      e20: 1.0676745
+      e21: 0
+      e22: -0.0031107832
+      e23: -3.007721
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.6688705, b: 0.3820755, a: 1}
+    intensity: 3
+    range: 3
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: -1
+      e01: 0
+      e02: -0.000005900859
+      e03: -16.187548
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 9.004999
+      e20: 0.000005900859
+      e21: 0
+      e22: -1
+      e23: -3.10841
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    color: {r: 1, g: 0.71242243, b: 0.3803922, a: 1}
+    intensity: 3
+    range: 12.830991
+    radius: 0.05
+    samples: 8
+    samples2: 0
+    bitmask: 0
+    bakeToIndirect: 0
+    selfShadow: 0
+    realisticFalloff: 0
+    projMode: 0
+    cookie: {fileID: 0}
+    angle: 30
+  - tform:
+      e00: -0.52418643
+      e01: 0
+      e02: -0.00000309315
+      e03: -16.792068
       e10: 0
       e11: 0.52418643
       e12: 0
-      e13: 1.7819297
-      e20: 0.0015273871
+      e13: 1.8199296
+      e20: 0.00000309315
       e21: 0
-      e22: 0.52418417
-      e23: -32.84818
+      e22: -0.52418643
+      e23: -26.98264
       e30: 0
       e31: 0
       e32: 0
@@ -21646,25 +22214,25 @@ MonoBehaviour:
     cookie: {fileID: 0}
     angle: 30
   - tform:
-      e00: -1
-      e01: 0
-      e02: -0.000005900859
-      e03: 1.6294975
+      e00: -3.7582405
+      e01: -0.00002217685
+      e02: -6.477031e-11
+      e03: -4.160568
       e10: 0
-      e11: 1
-      e12: 0
-      e13: 3.8579998
-      e20: 0.000005900859
-      e21: 0
-      e22: -1
-      e23: 5.1824837
+      e11: 0.0000109764205
+      e12: -3.758241
+      e13: 5.535968
+      e20: 0.000022176846
+      e21: -3.758241
+      e22: -0.0000109764205
+      e23: -6.7624817
       e30: 0
       e31: 0
       e32: 0
       e33: 1
-    color: {r: 0.30588233, g: 0.3396682, b: 1, a: 1}
-    intensity: 2
-    range: 5.484646
+    color: {r: 0.9622642, g: 0.7170029, b: 0.30411178, a: 1}
+    intensity: 13
+    range: 5.7514734
     radius: 0.05
     samples: 8
     samples2: 0
@@ -21672,9 +22240,9 @@ MonoBehaviour:
     bakeToIndirect: 0
     selfShadow: 0
     realisticFalloff: 0
-    projMode: 0
-    cookie: {fileID: 0}
-    angle: 30
+    projMode: 1
+    cookie: {fileID: 2800000, guid: 3a66602b8cc7fdd4ab57d07b4176432b, type: 3}
+    angle: 77.62938
   - tform:
       e00: 0.9999957
       e01: 0
@@ -21706,182 +22274,176 @@ MonoBehaviour:
     cookie: {fileID: 0}
     angle: 30
   implicitGroups:
-  - {fileID: 1897991076}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
-  - {fileID: 1711606654}
+  - {fileID: 214018196}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
+  - {fileID: 1122638901}
   implicitGroupedObjects:
   - {fileID: 0}
+  - {fileID: 12857715}
   - {fileID: 23084168}
-  - {fileID: 1194534130665812}
   - {fileID: 34808830}
   - {fileID: 35316529}
-  - {fileID: 1547069349223677}
   - {fileID: 54175720}
-  - {fileID: 1194534076726187}
-  - {fileID: 1568633056845064}
   - {fileID: 103055359}
+  - {fileID: 119318124}
   - {fileID: 134237661}
   - {fileID: 182850863}
   - {fileID: 205577396}
+  - {fileID: 206267473}
   - {fileID: 210031595}
   - {fileID: 215084431}
   - {fileID: 226499931}
   - {fileID: 243832849}
   - {fileID: 244720286}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 1939761497076178}
+  - {fileID: 263483136}
   - {fileID: 295073893}
-  - {fileID: 0}
+  - {fileID: 306949149}
   - {fileID: 371802424}
   - {fileID: 372313392}
   - {fileID: 382215081}
-  - {fileID: 1194534319926924}
   - {fileID: 391441011}
   - {fileID: 407999827}
   - {fileID: 428272257}
+  - {fileID: 432109373}
   - {fileID: 439577562}
   - {fileID: 452448163}
   - {fileID: 462597227}
   - {fileID: 463693327}
   - {fileID: 480714483}
   - {fileID: 497349942}
+  - {fileID: 500713201}
   - {fileID: 525266422}
   - {fileID: 553990907}
   - {fileID: 555638782}
@@ -21897,7 +22459,6 @@ MonoBehaviour:
   - {fileID: 692183908}
   - {fileID: 740618018}
   - {fileID: 742696995}
-  - {fileID: 1831109062532685}
   - {fileID: 788282969}
   - {fileID: 820418346}
   - {fileID: 847162683}
@@ -21905,54 +22466,56 @@ MonoBehaviour:
   - {fileID: 869991865}
   - {fileID: 897222205}
   - {fileID: 907006312}
+  - {fileID: 920237587}
   - {fileID: 938091527}
-  - {fileID: 938665167}
+  - {fileID: 951612552}
   - {fileID: 989915016}
-  - {fileID: 1300348660727679}
+  - {fileID: 1068713228}
   - {fileID: 1080608538}
   - {fileID: 1081575686}
   - {fileID: 1106054566}
   - {fileID: 1110778067}
   - {fileID: 1117751337}
+  - {fileID: 1124149932}
   - {fileID: 1130149967}
-  - {fileID: 1568632007845941}
+  - {fileID: 1153649082}
   - {fileID: 1179258840}
   - {fileID: 1188113189}
   - {fileID: 1190795011}
   - {fileID: 1194099920}
-  - {fileID: 1281736996113323}
+  - {fileID: 1195499251}
   - {fileID: 1230529562}
   - {fileID: 1234529667}
   - {fileID: 1239121634}
   - {fileID: 1248012654}
   - {fileID: 1273686325}
   - {fileID: 1277259111}
-  - {fileID: 1194535291010492}
   - {fileID: 1285239961}
   - {fileID: 1300291188}
-  - {fileID: 1281737155722799}
+  - {fileID: 1304668841}
+  - {fileID: 1365456329}
   - {fileID: 1377918209}
   - {fileID: 1379017831}
   - {fileID: 1413556357}
   - {fileID: 1434735423}
   - {fileID: 1437282769}
-  - {fileID: 1194535624363237}
   - {fileID: 1501560516}
   - {fileID: 1501725749}
   - {fileID: 1512229765}
   - {fileID: 1536444318}
-  - {fileID: 1568631593292429}
+  - {fileID: 1575667877}
+  - {fileID: 1583520658}
   - {fileID: 1587425425}
   - {fileID: 1602745157}
   - {fileID: 1628129346}
   - {fileID: 1643709793}
   - {fileID: 1644363595}
   - {fileID: 1645027178}
-  - {fileID: 1281736406305950}
   - {fileID: 1651731955}
   - {fileID: 1680503495}
   - {fileID: 1702760494}
   - {fileID: 1706530379}
+  - {fileID: 1712119389}
   - {fileID: 1726900807}
   - {fileID: 1785117943}
   - {fileID: 1785185967}
@@ -21964,6 +22527,7 @@ MonoBehaviour:
   - {fileID: 1837217535}
   - {fileID: 1847546243}
   - {fileID: 1850733089}
+  - {fileID: 1887178017}
   - {fileID: 1897101064}
   - {fileID: 1897901212}
   - {fileID: 1898658527}
@@ -21971,16 +22535,12 @@ MonoBehaviour:
   - {fileID: 1912062224}
   - {fileID: 1943841748}
   - {fileID: 1950979418}
-  - {fileID: 1194534885252452}
   - {fileID: 1961429060}
   - {fileID: 1964163827}
   - {fileID: 1968636670}
-  - {fileID: 1529169191887669}
-  - {fileID: 1989996294822921}
+  - {fileID: 1979127565}
+  - {fileID: 2002700799}
   - {fileID: 2049572147}
-  - {fileID: 1568632236646006}
-  - {fileID: 0}
-  - {fileID: 1194535013008561}
   - {fileID: 2116229885}
   - {fileID: 2122385545}
   - {fileID: 2129254301}
@@ -22007,32 +22567,13 @@ MonoBehaviour:
   lightmapHasDir: 0000
   lightmapHasRNM: 0001
   modifiedAssetPathList:
-  - Assets/_Air/3rdParty/JP_Apartment/Meshes/bottle01_2.fbx
-  - Assets/_Air/3rdParty/JP_Apartment/Meshes/table01.fbx
-  - Assets/_Air/3rdParty/JP_Apartment/Meshes/pillow02.fbx
-  - Assets/_Air/3rdParty/JP_Apartment/Meshes/lamp06.fbx
-  - Assets/_Air/3rdParty/JP_Apartment/Meshes/lamp05.fbx
-  - Assets/_Air/3rdParty/JP_Apartment/Meshes/lamp03.fbx
-  - Assets/_Air/3rdParty/JP_Apartment/Meshes/cup01.fbx
-  - Assets/_Air/3rdParty/JP_Apartment/Meshes/cabinet01.fbx
-  - Assets/_Air/3rdParty/JP_Apartment/Meshes/sideboard01.fbx
-  - Assets/_Air/3rdParty/JP_Apartment/Meshes/donuts01_1.fbx
-  - Assets/_Air/3rdParty/JP_Apartment/Meshes/donuts01_2.fbx
-  - Assets/_Air/3rdParty/JP_Apartment/Meshes/donuts01_3.fbx
+  - Assets/3rdParty/JP_Apartment/Meshes/lamp06.fbx
+  - Assets/3rdParty/JP_Apartment/Meshes/lamp05.fbx
+  - Assets/3rdParty/JP_Apartment/Meshes/sideboard01.fbx
+  - Assets/3rdParty/JP_Apartment/Meshes/lamp03.fbx
+  - Assets/3rdParty/JP_Apartment/Meshes/cabinet01.fbx
   - Assets/_Air/_Mesh(FBX)/Rug.fbx
   modifiedAssets:
-  - meshName:
-    - bottle01_2
-    padding: 57000000
-    unwrapper: 00000000
-  - meshName:
-    - table01
-    padding: 18000000
-    unwrapper: 00000000
-  - meshName:
-    - pillow02
-    padding: 31000000
-    unwrapper: 00000000
   - meshName:
     - lamp06
     padding: 63000000
@@ -22042,40 +22583,23 @@ MonoBehaviour:
     padding: 16000000
     unwrapper: 00000000
   - meshName:
-    - lamp03
-    padding: 40000000
-    unwrapper: 00000000
-  - meshName:
-    - cup01_coffee
-    - cup01
-    padding: a900000030000000
-    unwrapper: 0000000000000000
-  - meshName:
-    - cabinet01
-    padding: 06000000
-    unwrapper: 00000000
-  - meshName:
     - sideboard01
     padding: 09000000
     unwrapper: 00000000
   - meshName:
-    - donuts01_1
-    padding: 3b000000
+    - lamp03
+    padding: 40000000
     unwrapper: 00000000
   - meshName:
-    - donuts01_2
-    padding: 3e000000
-    unwrapper: 00000000
-  - meshName:
-    - donuts01_3
-    padding: 2d000000
+    - cabinet01
+    padding: 06000000
     unwrapper: 00000000
   - meshName:
     - Rug
     padding: 18000000
     unwrapper: 00000000
   maps:
-  - {fileID: 2800000, guid: 19aec20b8f7f6eb43afc9f5835efc21d, type: 3}
+  - {fileID: 2800000, guid: 0a137fc0284aa6e41bb921b31aedf7f7, type: 3}
   masks: []
   dirMaps: []
   rnmMaps0: []
@@ -22083,41 +22607,39 @@ MonoBehaviour:
   rnmMaps2: []
   mapsMode: 
   bakedRenderers:
+  - {fileID: 12857716}
   - {fileID: 23084169}
-  - {fileID: 23788085484539370}
   - {fileID: 34808831}
   - {fileID: 35316530}
-  - {fileID: 23135804975845711}
   - {fileID: 54175721}
-  - {fileID: 23788085546729237}
-  - {fileID: 23266555856009444}
   - {fileID: 103055362}
+  - {fileID: 119318125}
   - {fileID: 134237662}
   - {fileID: 182850864}
   - {fileID: 205577397}
+  - {fileID: 206267474}
   - {fileID: 210031596}
   - {fileID: 215084432}
   - {fileID: 226499932}
   - {fileID: 243832850}
   - {fileID: 244720288}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 23017030613006186}
+  - {fileID: 263483137}
   - {fileID: 295073894}
-  - {fileID: 0}
+  - {fileID: 306949150}
   - {fileID: 371802425}
   - {fileID: 372313393}
   - {fileID: 382215082}
-  - {fileID: 23788085841570354}
   - {fileID: 391441012}
   - {fileID: 407999828}
   - {fileID: 428272258}
+  - {fileID: 432109374}
   - {fileID: 439577563}
   - {fileID: 452448164}
   - {fileID: 462597228}
   - {fileID: 463693328}
   - {fileID: 480714484}
   - {fileID: 497349943}
+  - {fileID: 500713202}
   - {fileID: 525266423}
   - {fileID: 553990908}
   - {fileID: 555638783}
@@ -22133,7 +22655,6 @@ MonoBehaviour:
   - {fileID: 692183909}
   - {fileID: 740618019}
   - {fileID: 742696996}
-  - {fileID: 23571976159363933}
   - {fileID: 788282970}
   - {fileID: 820418347}
   - {fileID: 847162684}
@@ -22141,54 +22662,56 @@ MonoBehaviour:
   - {fileID: 869991866}
   - {fileID: 897222206}
   - {fileID: 907006313}
+  - {fileID: 920237588}
   - {fileID: 938091528}
-  - {fileID: 938665169}
+  - {fileID: 951612553}
   - {fileID: 989915017}
-  - {fileID: 23639168433701087}
+  - {fileID: 1068713229}
   - {fileID: 1080608539}
   - {fileID: 1081575687}
   - {fileID: 1106054567}
   - {fileID: 1110778068}
   - {fileID: 1117751338}
+  - {fileID: 1124149933}
   - {fileID: 1130149968}
-  - {fileID: 23266556935867865}
+  - {fileID: 1153649083}
   - {fileID: 1179258841}
   - {fileID: 1188113190}
   - {fileID: 1190795012}
   - {fileID: 1194099921}
-  - {fileID: 23406137599510243}
+  - {fileID: 1195499252}
   - {fileID: 1230529563}
   - {fileID: 1234529668}
   - {fileID: 1239121635}
   - {fileID: 1248012655}
   - {fileID: 1273686326}
   - {fileID: 1277259112}
-  - {fileID: 23788084592621826}
   - {fileID: 1285239962}
   - {fileID: 1300291189}
-  - {fileID: 23406137725104999}
+  - {fileID: 1304668842}
+  - {fileID: 1365456330}
   - {fileID: 1377918210}
   - {fileID: 1379017832}
   - {fileID: 1413556358}
   - {fileID: 1434735424}
   - {fileID: 1437282770}
-  - {fileID: 23788084797196379}
   - {fileID: 1501560517}
   - {fileID: 1501725750}
   - {fileID: 1512229766}
   - {fileID: 1536444319}
-  - {fileID: 23266557051647841}
+  - {fileID: 1575667878}
+  - {fileID: 1583520659}
   - {fileID: 1587425426}
   - {fileID: 1602745158}
   - {fileID: 1628129347}
   - {fileID: 1643709794}
   - {fileID: 1644363596}
   - {fileID: 1645027179}
-  - {fileID: 23406138054017494}
   - {fileID: 1651731956}
   - {fileID: 1680503496}
   - {fileID: 1702760495}
   - {fileID: 1706530380}
+  - {fileID: 1712119390}
   - {fileID: 1726900808}
   - {fileID: 1785117944}
   - {fileID: 1785185968}
@@ -22200,6 +22723,7 @@ MonoBehaviour:
   - {fileID: 1837217536}
   - {fileID: 1847546244}
   - {fileID: 1850733090}
+  - {fileID: 1887178018}
   - {fileID: 1897101065}
   - {fileID: 1897901213}
   - {fileID: 1898658528}
@@ -22207,166 +22731,154 @@ MonoBehaviour:
   - {fileID: 1912062225}
   - {fileID: 1943841749}
   - {fileID: 1950979419}
-  - {fileID: 23788085266831834}
   - {fileID: 1961429063}
   - {fileID: 1964163828}
   - {fileID: 1968636671}
-  - {fileID: 23233851137638711}
-  - {fileID: 23065764805789005}
+  - {fileID: 1979127566}
+  - {fileID: 2002700800}
   - {fileID: 2049572148}
-  - {fileID: 23266556510010266}
-  - {fileID: 0}
-  - {fileID: 23788085408546831}
   - {fileID: 2116229886}
   - {fileID: 2122385546}
   - {fileID: 2129254302}
   - {fileID: 1053326323210025642}
-  bakedIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  bakedIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   bakedScaleOffset:
-  - {x: 0.009601193, y: 0.008344404, z: 0.98895866, w: 0.12705505}
-  - {x: 0.02395012, y: 0.02395197, z: 0.97554517, w: 0.05263829}
-  - {x: -0.0028472447, y: 0.0013048406, z: 0.47579342, w: 0.36156613}
-  - {x: 0.012218077, y: 0.010961288, z: 0.7559785, w: 0.37733904}
-  - {x: 0.055618983, y: 0.055626515, z: 0.536578, w: 0.33164763}
-  - {x: -0.0033887469, y: 0.0007633379, z: 0.47366646, w: 0.36790216}
-  - {x: 0.044094384, y: 0.044096235, z: 0.3869191, w: 0.33942226}
-  - {x: 0.041851792, y: 0.042920277, z: 0.8888983, w: 0.08323047}
-  - {x: 0.40752062, y: 0.40751868, z: -0.0071437624, w: -0.0071437247}
-  - {x: 0.013919231, y: 0.013920618, z: 0.9739252, w: 0.1257738}
-  - {x: 0.007682437, y: 0.006425649, z: 0.9745039, w: 0.14656708}
-  - {x: 0.06144799, y: 0.061443523, z: 0.59803015, w: 0.27029434}
-  - {x: 0.013919251, y: 0.013920637, z: 0.87334806, w: 0.24419779}
-  - {x: 0.00768244, y: 0.006425652, z: 0.96144766, w: 0.15491396}
-  - {x: 0.0076824417, y: 0.006425653, z: 0.98897374, w: 0.13390471}
-  - {x: -0.0033887469, y: 0.0007633379, z: 0.47548717, w: 0.36790216}
-  - {x: 0.040257033, y: 0.04025816, z: 0.8043496, w: 0.28585744}
-  - {x: 0.008085836, y: 0.008085836, z: 0.6275606, w: 0.37206036}
-  - {x: 0.02845969, y: 0.028470492, z: 0.94802535, w: 0.053338714}
-  - {x: 0.1094091, y: 0.10726599, z: 0.8899294, w: -0.053802747}
-  - {x: 0.23076323, y: 0.23078798, z: 0.6615614, w: -0.00034562303}
-  - {x: 0.021569781, y: 0.017842755, z: 0.46087053, w: 0.3774334}
-  - {x: -0.0018326727, y: 0.0023194125, z: 0.47214305, w: 0.3451379}
-  - {x: 0.14528187, y: 0.14530593, z: 0.6629135, w: 0.23177256}
-  - {x: -0.0033887103, y: 0.0007633747, z: 0.47668052, w: 0.34946224}
-  - {x: 0.04409437, y: 0.044096224, z: 0.595604, w: 0.3292049}
-  - {x: 0.013919251, y: 0.013920637, z: 0.87334806, w: 0.23042671}
-  - {x: 0.012218077, y: 0.010961288, z: 0.7429223, w: 0.37733904}
-  - {x: -0.0032147756, y: 0.00093730935, z: 0.4736043, w: 0.36495915}
-  - {x: -0.0037163072, y: 0.00043577768, z: 0.47372696, w: 0.3736155}
-  - {x: -0.0027619612, y: 0.0013901239, z: 0.47247535, w: 0.36156532}
-  - {x: -0.0033887126, y: 0.00076337246, z: 0.47668052, w: 0.3534986}
-  - {x: 0.012218082, y: 0.010961295, z: 0.7037536, w: 0.37733904}
-  - {x: -0.003214782, y: 0.0009373029, z: 0.47457123, w: 0.36495915}
-  - {x: 0.007682443, y: 0.006425655, z: 0.9401603, w: 0.16213915}
-  - {x: 0.0082989, y: 0.007042112, z: 0.40962833, w: 0.38355765}
-  - {x: 0.013919248, y: 0.013920634, z: 0.87137884, w: 0.33926684}
-  - {x: -0.0033887469, y: 0.0007633379, z: 0.4726995, w: 0.37084338}
-  - {x: -0.003388753, y: 0.00076333206, z: 0.47543055, w: 0.37084338}
-  - {x: 0.013919231, y: 0.013920618, z: 0.96016216, w: 0.1257738}
-  - {x: -0.0037163072, y: 0.00043577768, z: 0.4745307, w: 0.3736155}
-  - {x: 0.012218082, y: 0.010961294, z: 0.7168098, w: 0.37733904}
-  - {x: -0.004048525, y: 0.00010356025, z: 0.4770961, w: 0.34727484}
-  - {x: 0.0065216743, y: 0.0052648853, z: 0.834141, w: 0.37256142}
-  - {x: -0.0028472047, y: 0.0013048806, z: 0.47362018, w: 0.36156613}
-  - {x: 0.008298909, y: 0.0070421207, z: 0.39060035, w: 0.38355765}
-  - {x: 0.040257003, y: 0.040258132, z: 0.842798, w: 0.28585744}
-  - {x: 0.0053446544, y: 0.004087866, z: 0.71686375, w: 0.38573915}
-  - {x: -0.003388753, y: 0.00076333206, z: 0.4745202, w: 0.37084338}
-  - {x: 0.021295799, y: 0.021296931, z: 0.9388895, w: 0.12578858}
-  - {x: 0.02314923, y: 0.023141207, z: 0.6384276, w: 0.331618}
-  - {x: 0.02796848, y: 0.027969612, z: 0.8051176, w: 0.36074322}
-  - {x: -0.0033888272, y: 0.00076325773, z: 0.47269955, w: 0.3736124}
-  - {x: 0.013195744, y: 0.011938956, z: 0.67674994, w: 0.37733147}
-  - {x: -0.004048641, y: 0.000103444036, z: 0.47625694, w: 0.37361866}
-  - {x: 0.016491717, y: 0.015234928, z: 0.63963217, w: 0.37875006}
-  - {x: 0.012218072, y: 0.010961285, z: 0.78209096, w: 0.37733904}
-  - {x: 0.012218076, y: 0.010961286, z: 0.76903474, w: 0.37733904}
-  - {x: -0.0021086016, y: 0.0020434833, z: 0.47356874, w: 0.35752276}
-  - {x: 0.055618983, y: 0.055626515, z: 0.4751093, w: 0.33164766}
-  - {x: -0.003214782, y: 0.0009373029, z: 0.4755382, w: 0.36495915}
-  - {x: 0.024971357, y: 0.025250029, z: 0.9734856, w: 0.08375546}
-  - {x: 0.007682438, y: 0.0064256494, z: 0.9745039, w: 0.14084095}
-  - {x: -0.0033887469, y: 0.0007633379, z: 0.4763975, w: 0.36790216}
-  - {x: 0.0082989065, y: 0.0070421183, z: 0.40011433, w: 0.38355765}
-  - {x: -0.002108598, y: 0.002043487, z: 0.47356874, w: 0.34945005}
-  - {x: 0.0076824417, y: 0.006425653, z: 0.96144766, w: 0.14918783}
-  - {x: -0.0021086016, y: 0.0020434833, z: 0.47489575, w: 0.3534864}
-  - {x: 0.041851785, y: 0.04292027, z: 0.9449627, w: 0.08323047}
-  - {x: -0.003214782, y: 0.0009373029, z: 0.4726373, w: 0.36790046}
-  - {x: 0.061448045, y: 0.06144358, z: 0.4750927, w: 0.27029434}
-  - {x: -0.002108593, y: 0.0020434922, z: 0.4750754, w: 0.34514052}
-  - {x: -0.0033888272, y: 0.00076325773, z: 0.47634095, w: 0.37084338}
-  - {x: 0.0307276, y: 0.030754335, z: 0.8411366, w: 0.3254901}
-  - {x: -0.0032146955, y: 0.00093738956, z: 0.4726373, w: 0.36495915}
-  - {x: -0.0037164225, y: 0.0004356626, z: 0.47533447, w: 0.3736155}
-  - {x: 0.00990325, y: 0.008646462, z: 0.9884664, w: 0.07749394}
-  - {x: 0.0082989, y: 0.0070421104, z: 0.4191423, w: 0.38355765}
-  - {x: 0.013919249, y: 0.013920636, z: 0.87137884, w: 0.32549578}
-  - {x: 0.013195744, y: 0.011938956, z: 0.6628101, w: 0.37733147}
-  - {x: 0.044094376, y: 0.044096228, z: 0.42733023, w: 0.33942226}
-  - {x: 0.013919231, y: 0.013920618, z: 0.9388748, w: 0.147072}
-  - {x: 0.013919231, y: 0.013920618, z: 0.9175874, w: 0.147072}
-  - {x: 0.030727599, y: 0.030754328, z: 0.8895506, w: 0.053321764}
-  - {x: -0.0033887469, y: 0.0007633379, z: 0.47360986, w: 0.37084338}
-  - {x: 0.012218072, y: 0.010961284, z: 0.9614121, w: 0.14080584}
-  - {x: 0.007682438, y: 0.0064256494, z: 0.98346066, w: 0.14084095}
-  - {x: -0.0027619612, y: 0.0013901239, z: 0.4762437, w: 0.35752898}
-  - {x: 0.013919249, y: 0.013920636, z: 0.87334806, w: 0.27173993}
-  - {x: 0.015811047, y: 0.015812894, z: 0.59800696, w: 0.37205133}
-  - {x: 0.005344659, y: 0.004087871, z: 0.70380753, w: 0.38573915}
-  - {x: 0.007682445, y: 0.0064256564, z: 0.79518276, w: 0.3843835}
-  - {x: 0.0082989, y: 0.0070421104, z: 0.4310115, w: 0.38355765}
-  - {x: 0.013919232, y: 0.013920619, z: 0.9736518, w: 0.10861914}
-  - {x: 0.041851785, y: 0.04292027, z: 0.8888983, w: 0.12506585}
-  - {x: 0.01221809, y: 0.0109613, z: 0.6906974, w: 0.37733904}
-  - {x: -0.002108598, y: 0.002043487, z: 0.47489575, w: 0.34945005}
-  - {x: 0.0076824552, y: 0.006425666, z: 0.4500443, w: 0.38356242}
-  - {x: -0.003214782, y: 0.0009373029, z: 0.47650516, w: 0.36495915}
-  - {x: -0.0021086016, y: 0.0020434833, z: 0.47356874, w: 0.3534864}
-  - {x: 0.00768244, y: 0.006425651, z: 0.96144766, w: 0.1606401}
-  - {x: 0.030727599, y: 0.030754328, z: 0.8411366, w: 0.35610113}
-  - {x: -0.0009024153, y: 0.00324967, z: 0.42904404, w: 0.38358125}
-  - {x: -0.002108598, y: 0.002043487, z: 0.47224173, w: 0.3534864}
-  - {x: -0.0033887469, y: 0.0007633379, z: 0.4745768, w: 0.36790216}
-  - {x: 0.0122180795, y: 0.0109612895, z: 0.729866, w: 0.37733904}
-  - {x: 0.013919253, y: 0.013920642, z: 0.6137863, w: 0.37204897}
-  - {x: 0.0053446656, y: 0.004087878, z: 0.69075125, w: 0.38573915}
-  - {x: -0.0028472047, y: 0.0013048806, z: 0.47470677, w: 0.36156613}
-  - {x: 0.0065216767, y: 0.0052648885, z: 0.834141, w: 0.36750603}
-  - {x: -0.002108593, y: 0.0020434922, z: 0.47224173, w: 0.34945005}
-  - {x: -0.004048525, y: 0.00010356025, z: 0.4770961, w: 0.345159}
-  - {x: 0.021295816, y: 0.02129695, z: 0.9176022, w: 0.12578858}
-  - {x: 0.009601201, y: 0.008344412, z: 0.9886853, w: 0.1167352}
-  - {x: 0.013919251, y: 0.013920637, z: 0.87334806, w: 0.25796884}
-  - {x: 0.013919234, y: 0.01392062, z: 0.87137884, w: 0.36987785}
-  - {x: 0.06144803, y: 0.06144356, z: 0.5365614, w: 0.27029434}
-  - {x: 0.008298896, y: 0.0070421076, z: 0.44052547, w: 0.38355765}
-  - {x: -0.0021086016, y: 0.0020434833, z: 0.47224173, w: 0.35752276}
-  - {x: 0.009903257, y: 0.008646469, z: 0.97750235, w: 0.07749394}
-  - {x: 0.0076824515, y: 0.006425663, z: 0.45900112, w: 0.38356242}
-  - {x: 0.007682443, y: 0.006425655, z: 0.91887295, w: 0.16213916}
-  - {x: -0.0018326727, y: 0.0023194125, z: 0.4735599, w: 0.3451379}
-  - {x: 0.013919239, y: 0.013920627, z: 0.87137884, w: 0.3561068}
-  - {x: 0.03859389, y: 0.03859574, z: 0.80358666, w: 0.3235625}
-  - {x: 0.28050315, y: 0.28049052, z: 0.38505533, w: -0.00460316}
-  - {x: 0.009601201, y: 0.008344412, z: 0.9886853, w: 0.109900385}
-  - {x: 0.06889529, y: 0.06847725, z: 0.8052509, w: 0.23016761}
-  - {x: 0.008085832, y: 0.008085832, z: 0.6275606, w: 0.38015586}
-  - {x: 0.028459704, y: 0.028470507, z: 0.91980463, w: 0.053338714}
-  - {x: 0.03936002, y: 0.037216917, z: 0.89055145, w: 0.1499384}
-  - {x: 0.041851785, y: 0.042920277, z: 0.9169305, w: 0.08323047}
-  - {x: 0.0036097192, y: -0.00011730962, z: 0.4702915, w: 0.34320933}
-  - {x: 0.023953311, y: 0.023955163, z: 0.63772637, w: 0.35394236}
-  - {x: 0.0065216767, y: 0.0052648885, z: 0.834141, w: 0.3624506}
-  - {x: -0.002761954, y: 0.0013901311, z: 0.47512937, w: 0.35752898}
-  - {x: 0.009903261, y: 0.008646473, z: 0.7951653, w: 0.37735698}
-  - {x: 0.08765334, y: 0.087235294, z: 0.38861102, w: 0.26956984}
-  bakedVertexOffset: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  - {x: -0.0017727125, y: 0.00224344, z: 0.45780253, w: 0.3411402}
+  - {x: 0.009286866, y: 0.008071222, z: 0.84598494, w: 0.22412223}
+  - {x: -0.0027540305, y: 0.0012621222, z: 0.38734925, w: 0.37404665}
+  - {x: 0.011818077, y: 0.010602433, z: 0.7186002, w: 0.3649856}
+  - {x: -0.0032778047, y: 0.0007383475, z: 0.3959605, w: 0.37405166}
+  - {x: 0.39417905, y: 0.3941772, z: -0.0069098873, w: -0.006909851}
+  - {x: 0.015951807, y: 0.0147361625, z: 0.61679316, w: 0.33525717}
+  - {x: 0.013463537, y: 0.01346488, z: 0.61561656, w: 0.32074928}
+  - {x: 0.007430927, y: 0.0062152836, z: 0.8154874, w: 0.29816684}
+  - {x: 0.05943628, y: 0.059431963, z: 0.57845163, w: 0.26144534}
+  - {x: 0.14052555, y: 0.14054883, z: 0.86173433, w: 0.00097369426}
+  - {x: 0.013463558, y: 0.013464898, z: 0.47282675, w: 0.36287406}
+  - {x: 0.007430929, y: 0.006215287, z: 0.8459995, w: 0.2601636}
+  - {x: 0.007430931, y: 0.006215288, z: 0.63034344, w: 0.37164733}
+  - {x: -0.0032778047, y: 0.0007383475, z: 0.39860216, w: 0.37405166}
+  - {x: 0.038939085, y: 0.038940176, z: 0.41754526, w: 0.32950017}
+  - {x: -0.0027539532, y: 0.0012621994, z: 0.38209406, w: 0.37404665}
+  - {x: 0.22320841, y: 0.22323236, z: 0.639903, w: -0.00033430793}
+  - {x: 0.0092868805, y: 0.008071237, z: 0.5468244, w: 0.35919726}
+  - {x: -0.001772674, y: 0.0022434788, z: 0.459173, w: 0.3369718}
+  - {x: 0.14052558, y: 0.14054886, z: 0.64121085, w: 0.2241847}
+  - {x: -0.0032777695, y: 0.00073838304, z: 0.39419943, w: 0.37405166}
+  - {x: 0.013463558, y: 0.013464898, z: 0.48613924, w: 0.36287406}
+  - {x: 0.011818077, y: 0.010602433, z: 0.7059714, w: 0.3649856}
+  - {x: -0.003109529, y: 0.00090662343, z: 0.38946274, w: 0.37405002}
+  - {x: 0.011818099, y: 0.0106024565, z: 0.4325151, w: 0.36906052}
+  - {x: -0.0035946416, y: 0.00042151104, z: 0.40487924, w: 0.37405467}
+  - {x: -0.0026715393, y: 0.0013446135, z: 0.37990886, w: 0.37404585}
+  - {x: -0.0032777716, y: 0.0007383809, z: 0.39507997, w: 0.37405166}
+  - {x: 0.011818082, y: 0.010602441, z: 0.6680851, w: 0.3649856}
+  - {x: -0.0031095354, y: 0.00090661715, z: 0.39039803, w: 0.37405002}
+  - {x: 0.0074309325, y: 0.0062152897, z: 0.57071614, w: 0.36700144}
+  - {x: 0.0092868805, y: 0.008071237, z: 0.5468244, w: 0.36580834}
+  - {x: 0.008027208, y: 0.006811565, z: 0.84599483, w: 0.23662622}
+  - {x: 0.013463555, y: 0.013464896, z: 0.5016175, w: 0.36071002}
+  - {x: -0.0032778047, y: 0.0007383475, z: 0.40036327, w: 0.37405166}
+  - {x: -0.0032778108, y: 0.0007383418, z: 0.4012438, w: 0.37405166}
+  - {x: 0.013463537, y: 0.01346488, z: 0.5561603, w: 0.35467044}
+  - {x: -0.0035946416, y: 0.00042151104, z: 0.40565667, w: 0.37405467}
+  - {x: 0.011818082, y: 0.010602439, z: 0.6807139, w: 0.3649856}
+  - {x: -0.003915983, y: 0.000100169855, z: 0.40732634, w: 0.3740577}
+  - {x: 0.0063081654, y: 0.0050925217, z: 0.5468477, w: 0.37244245}
+  - {x: -0.0027539919, y: 0.001262161, z: 0.38629818, w: 0.37404665}
+  - {x: 0.008027216, y: 0.0068115736, z: 0.6301677, w: 0.32877818}
+  - {x: 0.038939055, y: 0.03894015, z: 0.5772949, w: 0.3196173}
+  - {x: 0.0051696794, y: 0.0039540357, z: 0.5863078, w: 0.37254927}
+  - {x: -0.0032778108, y: 0.0007383418, z: 0.40212435, w: 0.37405166}
+  - {x: 0.020598609, y: 0.020599706, z: 0.5561745, w: 0.3207636}
+  - {x: 0.027052838, y: 0.027053932, z: 0.77875936, w: 0.27724183}
+  - {x: -0.0032778825, y: 0.00073826994, z: 0.40300494, w: 0.37405166}
+  - {x: 0.012763737, y: 0.0115480935, z: 0.65459424, w: 0.36497825}
+  - {x: -0.003916095, y: 0.00010005745, z: 0.40867203, w: 0.3740577}
+  - {x: 0.015951805, y: 0.014736162, z: 0.61679316, w: 0.3457193}
+  - {x: 0.011818073, y: 0.01060243, z: 0.7438578, w: 0.3649856}
+  - {x: 0.0118180765, y: 0.010602431, z: 0.731229, w: 0.3649856}
+  - {x: -0.0027539532, y: 0.0012621994, z: 0.38419613, w: 0.37404665}
+  - {x: -0.0020395694, y: 0.001976583, z: 0.45918155, w: 0.35702378}
+  - {x: 0.011818085, y: 0.010602442, z: 0.5573693, w: 0.3692103}
+  - {x: -0.0031095354, y: 0.00090661715, z: 0.39133334, w: 0.37405002}
+  - {x: -0.0017727125, y: 0.00224344, z: 0.45917296, w: 0.3411402}
+  - {x: 0.0074309274, y: 0.006215284, z: 0.8459995, w: 0.27124092}
+  - {x: -0.0032778047, y: 0.0007383475, z: 0.39772162, w: 0.37405166}
+  - {x: 0.008027215, y: 0.006811571, z: 0.84599483, w: 0.23074302}
+  - {x: -0.002039566, y: 0.0019765866, z: 0.45918155, w: 0.35311955}
+  - {x: 0.007430931, y: 0.006215288, z: 0.7691498, w: 0.3716306}
+  - {x: -0.0008728717, y: 0.003143281, z: 0.45748076, w: 0.331904}
+  - {x: -0.0020395694, y: 0.001976583, z: 0.45918155, w: 0.36092797}
+  - {x: -0.0020396046, y: 0.0019765478, z: 0.457898, w: 0.36483216}
+  - {x: -0.0031095354, y: 0.00090661715, z: 0.39320394, w: 0.37405002}
+  - {x: 0.059436336, y: 0.05943202, z: 0.45953897, w: 0.26144534}
+  - {x: -0.0020395613, y: 0.0019765915, z: 0.45918155, w: 0.34531114}
+  - {x: -0.0032778825, y: 0.00073826994, z: 0.40388545, w: 0.37405166}
+  - {x: 0.04436807, y: 0.044369165, z: 0.37510264, w: 0.32916087}
+  - {x: -0.0031094516, y: 0.00090670097, z: 0.3885274, w: 0.37405002}
+  - {x: -0.003594753, y: 0.00042139972, z: 0.40643412, w: 0.37405467}
+  - {x: 0.0095790345, y: 0.008363391, z: 0.63032657, w: 0.36485085}
+  - {x: 0.008027207, y: 0.0068115634, z: 0.84599483, w: 0.24839261}
+  - {x: 0.013463556, y: 0.013464897, z: 0.5016175, w: 0.33406955}
+  - {x: 0.012763737, y: 0.0115480935, z: 0.6411108, w: 0.36497825}
+  - {x: 0.013463537, y: 0.01346488, z: 0.5784269, w: 0.35795793}
+  - {x: 0.013463537, y: 0.01346488, z: 0.59173936, w: 0.35795793}
+  - {x: 0.038939066, y: 0.038940165, z: 0.51783854, w: 0.31961733}
+  - {x: 0.011818099, y: 0.0106024565, z: 0.41988632, w: 0.36906052}
+  - {x: -0.0032778047, y: 0.0007383475, z: 0.39948273, w: 0.37405166}
+  - {x: 0.011818073, y: 0.0106024295, z: 0.7564866, w: 0.3649856}
+  - {x: 0.0074309274, y: 0.006215284, z: 0.80682385, w: 0.29816684}
+  - {x: -0.0026715393, y: 0.0013446135, z: 0.38098672, w: 0.37404585}
+  - {x: 0.013463556, y: 0.013464897, z: 0.5016175, w: 0.3473898}
+  - {x: 0.005169684, y: 0.003954041, z: 0.579688, w: 0.37254927}
+  - {x: 0.0074309343, y: 0.006215291, z: 0.57071614, w: 0.35592407}
+  - {x: 0.008027207, y: 0.0068115634, z: 0.84599483, w: 0.24250942}
+  - {x: 0.01346354, y: 0.013464881, z: 0.5561603, w: 0.3413502}
+  - {x: -0.0020396046, y: 0.0019765478, z: 0.45918155, w: 0.36483216}
+  - {x: -0.002039566, y: 0.0019765866, z: 0.45918155, w: 0.34921536}
+  - {x: 0.0118180895, y: 0.010602445, z: 0.44514388, w: 0.36906052}
+  - {x: -0.002039566, y: 0.0019765866, z: 0.457898, w: 0.35311955}
+  - {x: 0.007430944, y: 0.0062153004, z: 0.57071614, w: 0.34260386}
+  - {x: -0.0031095354, y: 0.00090661715, z: 0.39226863, w: 0.37405002}
+  - {x: -0.0020395694, y: 0.001976583, z: 0.457898, w: 0.36092797}
+  - {x: 0.007430929, y: 0.0062152855, z: 0.8459995, w: 0.26570228}
+  - {x: -0.0008728717, y: 0.003143281, z: 0.45914403, w: 0.331904}
+  - {x: -0.002039566, y: 0.0019765866, z: 0.457898, w: 0.34921536}
+  - {x: -0.0032778047, y: 0.0007383475, z: 0.39684108, w: 0.37405166}
+  - {x: 0.01181808, y: 0.010602435, z: 0.6933427, w: 0.3649856}
+  - {x: 0.012763746, y: 0.011548103, z: 0.61681813, w: 0.35620612}
+  - {x: 0.01346356, y: 0.013464903, z: 0.45951423, w: 0.36287406}
+  - {x: 0.00516969, y: 0.0039540473, z: 0.57073385, w: 0.37255764}
+  - {x: -0.0027539919, y: 0.001262161, z: 0.38524714, w: 0.37404665}
+  - {x: 0.0063081677, y: 0.0050925245, z: 0.53353524, w: 0.37254056}
+  - {x: -0.0020395613, y: 0.0019765915, z: 0.457898, w: 0.34531114}
+  - {x: -0.003915983, y: 0.000100169855, z: 0.40799916, w: 0.3740577}
+  - {x: 0.04436805, y: 0.044369146, z: 0.45804292, w: 0.31927806}
+  - {x: 0.009286874, y: 0.00807123, z: 0.7691352, w: 0.3650052}
+  - {x: 0.013463558, y: 0.013464898, z: 0.5016175, w: 0.32074934}
+  - {x: 0.013463541, y: 0.013464882, z: 0.532283, w: 0.35795796}
+  - {x: 0.05943632, y: 0.059431996, z: 0.5189953, w: 0.26144534}
+  - {x: -0.0027539532, y: 0.0012621994, z: 0.3831451, w: 0.37404665}
+  - {x: 0.008027203, y: 0.0068115606, z: 0.84599483, w: 0.2542758}
+  - {x: -0.0020395694, y: 0.001976583, z: 0.457898, w: 0.35702378}
+  - {x: 0.00957904, y: 0.008363398, z: 0.63032657, w: 0.35623083}
+  - {x: 0.0074309404, y: 0.006215297, z: 0.57071614, w: 0.34814253}
+  - {x: 0.0074309325, y: 0.0062152897, z: 0.57071614, w: 0.36146277}
+  - {x: -0.001772674, y: 0.0022434788, z: 0.45780253, w: 0.3369718}
+  - {x: 0.0134635465, y: 0.013464889, z: 0.51897055, w: 0.35795796}
+  - {x: 0.27131996, y: 0.2713077, z: 0.37244928, w: -0.00445246}
+  - {x: 0.009286874, y: 0.00807123, z: 0.6062807, w: 0.36580828}
+  - {x: 0.06663977, y: 0.066235416, z: 0.7788883, w: 0.2226323}
+  - {x: 0.0092868805, y: 0.008071237, z: 0.6062807, w: 0.35919723}
+  - {x: 0.012763744, y: 0.0115481, z: 0.61681813, w: 0.36482614}
+  - {x: 0.038071465, y: 0.035998527, z: 0.80654407, w: 0.26053864}
+  - {x: 0.0063081677, y: 0.0050925245, z: 0.5202228, w: 0.37254056}
+  - {x: -0.002671532, y: 0.0013446205, z: 0.378831, w: 0.37404585}
+  - {x: 0.009579045, y: 0.0083634015, z: 0.63015556, w: 0.3219863}
+  - {x: 0.08478372, y: 0.08437936, z: 0.37588853, w: 0.26074457}
+  bakedVertexOffset: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
   bakedVertexColorMesh:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -22504,6 +23016,7 @@ MonoBehaviour:
   nonBakedRenderers: []
   bakedLights:
   - {fileID: 21507446}
+  - {fileID: 32889379}
   - {fileID: 139511555}
   - {fileID: 152107683}
   - {fileID: 165793511}
@@ -22524,6 +23037,7 @@ MonoBehaviour:
   - {fileID: 630453941}
   - {fileID: 635250542}
   - {fileID: 642330920}
+  - {fileID: 656628110}
   - {fileID: 709458075}
   - {fileID: 746632463}
   - {fileID: 757488774}
@@ -22533,7 +23047,11 @@ MonoBehaviour:
   - {fileID: 893431633}
   - {fileID: 940979995}
   - {fileID: 962907462}
+  - {fileID: 966336875}
+  - {fileID: 980757040}
+  - {fileID: 1039168106}
   - {fileID: 1054358815}
+  - {fileID: 1082156834}
   - {fileID: 1102892511}
   - {fileID: 1109429879}
   - {fileID: 1127247394}
@@ -22543,6 +23061,7 @@ MonoBehaviour:
   - {fileID: 1245968012}
   - {fileID: 1248118690}
   - {fileID: 1296221946}
+  - {fileID: 1302771953}
   - {fileID: 1304777062}
   - {fileID: 1426545235}
   - {fileID: 1429752044}
@@ -22550,6 +23069,7 @@ MonoBehaviour:
   - {fileID: 1478116829}
   - {fileID: 1480598937}
   - {fileID: 1556403004}
+  - {fileID: 1591865844}
   - {fileID: 1602977265}
   - {fileID: 1606768707}
   - {fileID: 1674487798}
@@ -22561,15 +23081,18 @@ MonoBehaviour:
   - {fileID: 1833630302}
   - {fileID: 1835167591}
   - {fileID: 1854301762}
+  - {fileID: 1854497248}
+  - {fileID: 1856421429}
   - {fileID: 1861548667}
   - {fileID: 1890966110}
   - {fileID: 1956219824}
   - {fileID: 1960269469}
+  - {fileID: 1975646949}
   - {fileID: 1989917088}
   - {fileID: 2098086672}
   - {fileID: 2104059858}
   - {fileID: 2127453459}
-  bakedLightChannels: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  bakedLightChannels: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
   bakedRenderersTerrain: []
   bakedIDsTerrain: 
   bakedScaleOffsetTerrain: []
@@ -22583,7 +23106,7 @@ MonoBehaviour:
   sectors:
   - name: $G
     maps:
-    - {fileID: 2800000, guid: 19aec20b8f7f6eb43afc9f5835efc21d, type: 3}
+    - {fileID: 2800000, guid: 0a137fc0284aa6e41bb921b31aedf7f7, type: 3}
     masks: []
     dirMaps: []
     rnmMaps0: []
@@ -22591,41 +23114,39 @@ MonoBehaviour:
     rnmMaps2: []
     mapsMode: 
     bakedRenderers:
+    - {fileID: 12857716}
     - {fileID: 23084169}
-    - {fileID: 23788085484539370}
     - {fileID: 34808831}
     - {fileID: 35316530}
-    - {fileID: 23135804975845711}
     - {fileID: 54175721}
-    - {fileID: 23788085546729237}
-    - {fileID: 23266555856009444}
     - {fileID: 103055362}
+    - {fileID: 119318125}
     - {fileID: 134237662}
     - {fileID: 182850864}
     - {fileID: 205577397}
+    - {fileID: 206267474}
     - {fileID: 210031596}
     - {fileID: 215084432}
     - {fileID: 226499932}
     - {fileID: 243832850}
     - {fileID: 244720288}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 23017030613006186}
+    - {fileID: 263483137}
     - {fileID: 295073894}
-    - {fileID: 0}
+    - {fileID: 306949150}
     - {fileID: 371802425}
     - {fileID: 372313393}
     - {fileID: 382215082}
-    - {fileID: 23788085841570354}
     - {fileID: 391441012}
     - {fileID: 407999828}
     - {fileID: 428272258}
+    - {fileID: 432109374}
     - {fileID: 439577563}
     - {fileID: 452448164}
     - {fileID: 462597228}
     - {fileID: 463693328}
     - {fileID: 480714484}
     - {fileID: 497349943}
+    - {fileID: 500713202}
     - {fileID: 525266423}
     - {fileID: 553990908}
     - {fileID: 555638783}
@@ -22641,7 +23162,6 @@ MonoBehaviour:
     - {fileID: 692183909}
     - {fileID: 740618019}
     - {fileID: 742696996}
-    - {fileID: 23571976159363933}
     - {fileID: 788282970}
     - {fileID: 820418347}
     - {fileID: 847162684}
@@ -22649,54 +23169,56 @@ MonoBehaviour:
     - {fileID: 869991866}
     - {fileID: 897222206}
     - {fileID: 907006313}
+    - {fileID: 920237588}
     - {fileID: 938091528}
-    - {fileID: 938665169}
+    - {fileID: 951612553}
     - {fileID: 989915017}
-    - {fileID: 23639168433701087}
+    - {fileID: 1068713229}
     - {fileID: 1080608539}
     - {fileID: 1081575687}
     - {fileID: 1106054567}
     - {fileID: 1110778068}
     - {fileID: 1117751338}
+    - {fileID: 1124149933}
     - {fileID: 1130149968}
-    - {fileID: 23266556935867865}
+    - {fileID: 1153649083}
     - {fileID: 1179258841}
     - {fileID: 1188113190}
     - {fileID: 1190795012}
     - {fileID: 1194099921}
-    - {fileID: 23406137599510243}
+    - {fileID: 1195499252}
     - {fileID: 1230529563}
     - {fileID: 1234529668}
     - {fileID: 1239121635}
     - {fileID: 1248012655}
     - {fileID: 1273686326}
     - {fileID: 1277259112}
-    - {fileID: 23788084592621826}
     - {fileID: 1285239962}
     - {fileID: 1300291189}
-    - {fileID: 23406137725104999}
+    - {fileID: 1304668842}
+    - {fileID: 1365456330}
     - {fileID: 1377918210}
     - {fileID: 1379017832}
     - {fileID: 1413556358}
     - {fileID: 1434735424}
     - {fileID: 1437282770}
-    - {fileID: 23788084797196379}
     - {fileID: 1501560517}
     - {fileID: 1501725750}
     - {fileID: 1512229766}
     - {fileID: 1536444319}
-    - {fileID: 23266557051647841}
+    - {fileID: 1575667878}
+    - {fileID: 1583520659}
     - {fileID: 1587425426}
     - {fileID: 1602745158}
     - {fileID: 1628129347}
     - {fileID: 1643709794}
     - {fileID: 1644363596}
     - {fileID: 1645027179}
-    - {fileID: 23406138054017494}
     - {fileID: 1651731956}
     - {fileID: 1680503496}
     - {fileID: 1702760495}
     - {fileID: 1706530380}
+    - {fileID: 1712119390}
     - {fileID: 1726900808}
     - {fileID: 1785117944}
     - {fileID: 1785185968}
@@ -22708,6 +23230,7 @@ MonoBehaviour:
     - {fileID: 1837217536}
     - {fileID: 1847546244}
     - {fileID: 1850733090}
+    - {fileID: 1887178018}
     - {fileID: 1897101065}
     - {fileID: 1897901213}
     - {fileID: 1898658528}
@@ -22715,168 +23238,156 @@ MonoBehaviour:
     - {fileID: 1912062225}
     - {fileID: 1943841749}
     - {fileID: 1950979419}
-    - {fileID: 23788085266831834}
     - {fileID: 1961429063}
     - {fileID: 1964163828}
     - {fileID: 1968636671}
-    - {fileID: 23233851137638711}
-    - {fileID: 23065764805789005}
+    - {fileID: 1979127566}
+    - {fileID: 2002700800}
     - {fileID: 2049572148}
-    - {fileID: 23266556510010266}
-    - {fileID: 0}
-    - {fileID: 23788085408546831}
     - {fileID: 2116229886}
     - {fileID: 2122385546}
     - {fileID: 2129254302}
     - {fileID: 1053326323210025642}
     bakedRenderersTerrain: []
-    bakedIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    bakedIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     bakedIDsTerrain: 
     bakedScaleOffset:
-    - {x: 0.009601193, y: 0.008344404, z: 0.98895866, w: 0.12705505}
-    - {x: 0.02395012, y: 0.02395197, z: 0.97554517, w: 0.05263829}
-    - {x: -0.0028472447, y: 0.0013048406, z: 0.47579342, w: 0.36156613}
-    - {x: 0.012218077, y: 0.010961288, z: 0.7559785, w: 0.37733904}
-    - {x: 0.055618983, y: 0.055626515, z: 0.536578, w: 0.33164763}
-    - {x: -0.0033887469, y: 0.0007633379, z: 0.47366646, w: 0.36790216}
-    - {x: 0.044094384, y: 0.044096235, z: 0.3869191, w: 0.33942226}
-    - {x: 0.041851792, y: 0.042920277, z: 0.8888983, w: 0.08323047}
-    - {x: 0.40752062, y: 0.40751868, z: -0.0071437624, w: -0.0071437247}
-    - {x: 0.013919231, y: 0.013920618, z: 0.9739252, w: 0.1257738}
-    - {x: 0.007682437, y: 0.006425649, z: 0.9745039, w: 0.14656708}
-    - {x: 0.06144799, y: 0.061443523, z: 0.59803015, w: 0.27029434}
-    - {x: 0.013919251, y: 0.013920637, z: 0.87334806, w: 0.24419779}
-    - {x: 0.00768244, y: 0.006425652, z: 0.96144766, w: 0.15491396}
-    - {x: 0.0076824417, y: 0.006425653, z: 0.98897374, w: 0.13390471}
-    - {x: -0.0033887469, y: 0.0007633379, z: 0.47548717, w: 0.36790216}
-    - {x: 0.040257033, y: 0.04025816, z: 0.8043496, w: 0.28585744}
-    - {x: 0.008085836, y: 0.008085836, z: 0.6275606, w: 0.37206036}
-    - {x: 0.02845969, y: 0.028470492, z: 0.94802535, w: 0.053338714}
-    - {x: 0.1094091, y: 0.10726599, z: 0.8899294, w: -0.053802747}
-    - {x: 0.23076323, y: 0.23078798, z: 0.6615614, w: -0.00034562303}
-    - {x: 0.021569781, y: 0.017842755, z: 0.46087053, w: 0.3774334}
-    - {x: -0.0018326727, y: 0.0023194125, z: 0.47214305, w: 0.3451379}
-    - {x: 0.14528187, y: 0.14530593, z: 0.6629135, w: 0.23177256}
-    - {x: -0.0033887103, y: 0.0007633747, z: 0.47668052, w: 0.34946224}
-    - {x: 0.04409437, y: 0.044096224, z: 0.595604, w: 0.3292049}
-    - {x: 0.013919251, y: 0.013920637, z: 0.87334806, w: 0.23042671}
-    - {x: 0.012218077, y: 0.010961288, z: 0.7429223, w: 0.37733904}
-    - {x: -0.0032147756, y: 0.00093730935, z: 0.4736043, w: 0.36495915}
-    - {x: -0.0037163072, y: 0.00043577768, z: 0.47372696, w: 0.3736155}
-    - {x: -0.0027619612, y: 0.0013901239, z: 0.47247535, w: 0.36156532}
-    - {x: -0.0033887126, y: 0.00076337246, z: 0.47668052, w: 0.3534986}
-    - {x: 0.012218082, y: 0.010961295, z: 0.7037536, w: 0.37733904}
-    - {x: -0.003214782, y: 0.0009373029, z: 0.47457123, w: 0.36495915}
-    - {x: 0.007682443, y: 0.006425655, z: 0.9401603, w: 0.16213915}
-    - {x: 0.0082989, y: 0.007042112, z: 0.40962833, w: 0.38355765}
-    - {x: 0.013919248, y: 0.013920634, z: 0.87137884, w: 0.33926684}
-    - {x: -0.0033887469, y: 0.0007633379, z: 0.4726995, w: 0.37084338}
-    - {x: -0.003388753, y: 0.00076333206, z: 0.47543055, w: 0.37084338}
-    - {x: 0.013919231, y: 0.013920618, z: 0.96016216, w: 0.1257738}
-    - {x: -0.0037163072, y: 0.00043577768, z: 0.4745307, w: 0.3736155}
-    - {x: 0.012218082, y: 0.010961294, z: 0.7168098, w: 0.37733904}
-    - {x: -0.004048525, y: 0.00010356025, z: 0.4770961, w: 0.34727484}
-    - {x: 0.0065216743, y: 0.0052648853, z: 0.834141, w: 0.37256142}
-    - {x: -0.0028472047, y: 0.0013048806, z: 0.47362018, w: 0.36156613}
-    - {x: 0.008298909, y: 0.0070421207, z: 0.39060035, w: 0.38355765}
-    - {x: 0.040257003, y: 0.040258132, z: 0.842798, w: 0.28585744}
-    - {x: 0.0053446544, y: 0.004087866, z: 0.71686375, w: 0.38573915}
-    - {x: -0.003388753, y: 0.00076333206, z: 0.4745202, w: 0.37084338}
-    - {x: 0.021295799, y: 0.021296931, z: 0.9388895, w: 0.12578858}
-    - {x: 0.02314923, y: 0.023141207, z: 0.6384276, w: 0.331618}
-    - {x: 0.02796848, y: 0.027969612, z: 0.8051176, w: 0.36074322}
-    - {x: -0.0033888272, y: 0.00076325773, z: 0.47269955, w: 0.3736124}
-    - {x: 0.013195744, y: 0.011938956, z: 0.67674994, w: 0.37733147}
-    - {x: -0.004048641, y: 0.000103444036, z: 0.47625694, w: 0.37361866}
-    - {x: 0.016491717, y: 0.015234928, z: 0.63963217, w: 0.37875006}
-    - {x: 0.012218072, y: 0.010961285, z: 0.78209096, w: 0.37733904}
-    - {x: 0.012218076, y: 0.010961286, z: 0.76903474, w: 0.37733904}
-    - {x: -0.0021086016, y: 0.0020434833, z: 0.47356874, w: 0.35752276}
-    - {x: 0.055618983, y: 0.055626515, z: 0.4751093, w: 0.33164766}
-    - {x: -0.003214782, y: 0.0009373029, z: 0.4755382, w: 0.36495915}
-    - {x: 0.024971357, y: 0.025250029, z: 0.9734856, w: 0.08375546}
-    - {x: 0.007682438, y: 0.0064256494, z: 0.9745039, w: 0.14084095}
-    - {x: -0.0033887469, y: 0.0007633379, z: 0.4763975, w: 0.36790216}
-    - {x: 0.0082989065, y: 0.0070421183, z: 0.40011433, w: 0.38355765}
-    - {x: -0.002108598, y: 0.002043487, z: 0.47356874, w: 0.34945005}
-    - {x: 0.0076824417, y: 0.006425653, z: 0.96144766, w: 0.14918783}
-    - {x: -0.0021086016, y: 0.0020434833, z: 0.47489575, w: 0.3534864}
-    - {x: 0.041851785, y: 0.04292027, z: 0.9449627, w: 0.08323047}
-    - {x: -0.003214782, y: 0.0009373029, z: 0.4726373, w: 0.36790046}
-    - {x: 0.061448045, y: 0.06144358, z: 0.4750927, w: 0.27029434}
-    - {x: -0.002108593, y: 0.0020434922, z: 0.4750754, w: 0.34514052}
-    - {x: -0.0033888272, y: 0.00076325773, z: 0.47634095, w: 0.37084338}
-    - {x: 0.0307276, y: 0.030754335, z: 0.8411366, w: 0.3254901}
-    - {x: -0.0032146955, y: 0.00093738956, z: 0.4726373, w: 0.36495915}
-    - {x: -0.0037164225, y: 0.0004356626, z: 0.47533447, w: 0.3736155}
-    - {x: 0.00990325, y: 0.008646462, z: 0.9884664, w: 0.07749394}
-    - {x: 0.0082989, y: 0.0070421104, z: 0.4191423, w: 0.38355765}
-    - {x: 0.013919249, y: 0.013920636, z: 0.87137884, w: 0.32549578}
-    - {x: 0.013195744, y: 0.011938956, z: 0.6628101, w: 0.37733147}
-    - {x: 0.044094376, y: 0.044096228, z: 0.42733023, w: 0.33942226}
-    - {x: 0.013919231, y: 0.013920618, z: 0.9388748, w: 0.147072}
-    - {x: 0.013919231, y: 0.013920618, z: 0.9175874, w: 0.147072}
-    - {x: 0.030727599, y: 0.030754328, z: 0.8895506, w: 0.053321764}
-    - {x: -0.0033887469, y: 0.0007633379, z: 0.47360986, w: 0.37084338}
-    - {x: 0.012218072, y: 0.010961284, z: 0.9614121, w: 0.14080584}
-    - {x: 0.007682438, y: 0.0064256494, z: 0.98346066, w: 0.14084095}
-    - {x: -0.0027619612, y: 0.0013901239, z: 0.4762437, w: 0.35752898}
-    - {x: 0.013919249, y: 0.013920636, z: 0.87334806, w: 0.27173993}
-    - {x: 0.015811047, y: 0.015812894, z: 0.59800696, w: 0.37205133}
-    - {x: 0.005344659, y: 0.004087871, z: 0.70380753, w: 0.38573915}
-    - {x: 0.007682445, y: 0.0064256564, z: 0.79518276, w: 0.3843835}
-    - {x: 0.0082989, y: 0.0070421104, z: 0.4310115, w: 0.38355765}
-    - {x: 0.013919232, y: 0.013920619, z: 0.9736518, w: 0.10861914}
-    - {x: 0.041851785, y: 0.04292027, z: 0.8888983, w: 0.12506585}
-    - {x: 0.01221809, y: 0.0109613, z: 0.6906974, w: 0.37733904}
-    - {x: -0.002108598, y: 0.002043487, z: 0.47489575, w: 0.34945005}
-    - {x: 0.0076824552, y: 0.006425666, z: 0.4500443, w: 0.38356242}
-    - {x: -0.003214782, y: 0.0009373029, z: 0.47650516, w: 0.36495915}
-    - {x: -0.0021086016, y: 0.0020434833, z: 0.47356874, w: 0.3534864}
-    - {x: 0.00768244, y: 0.006425651, z: 0.96144766, w: 0.1606401}
-    - {x: 0.030727599, y: 0.030754328, z: 0.8411366, w: 0.35610113}
-    - {x: -0.0009024153, y: 0.00324967, z: 0.42904404, w: 0.38358125}
-    - {x: -0.002108598, y: 0.002043487, z: 0.47224173, w: 0.3534864}
-    - {x: -0.0033887469, y: 0.0007633379, z: 0.4745768, w: 0.36790216}
-    - {x: 0.0122180795, y: 0.0109612895, z: 0.729866, w: 0.37733904}
-    - {x: 0.013919253, y: 0.013920642, z: 0.6137863, w: 0.37204897}
-    - {x: 0.0053446656, y: 0.004087878, z: 0.69075125, w: 0.38573915}
-    - {x: -0.0028472047, y: 0.0013048806, z: 0.47470677, w: 0.36156613}
-    - {x: 0.0065216767, y: 0.0052648885, z: 0.834141, w: 0.36750603}
-    - {x: -0.002108593, y: 0.0020434922, z: 0.47224173, w: 0.34945005}
-    - {x: -0.004048525, y: 0.00010356025, z: 0.4770961, w: 0.345159}
-    - {x: 0.021295816, y: 0.02129695, z: 0.9176022, w: 0.12578858}
-    - {x: 0.009601201, y: 0.008344412, z: 0.9886853, w: 0.1167352}
-    - {x: 0.013919251, y: 0.013920637, z: 0.87334806, w: 0.25796884}
-    - {x: 0.013919234, y: 0.01392062, z: 0.87137884, w: 0.36987785}
-    - {x: 0.06144803, y: 0.06144356, z: 0.5365614, w: 0.27029434}
-    - {x: 0.008298896, y: 0.0070421076, z: 0.44052547, w: 0.38355765}
-    - {x: -0.0021086016, y: 0.0020434833, z: 0.47224173, w: 0.35752276}
-    - {x: 0.009903257, y: 0.008646469, z: 0.97750235, w: 0.07749394}
-    - {x: 0.0076824515, y: 0.006425663, z: 0.45900112, w: 0.38356242}
-    - {x: 0.007682443, y: 0.006425655, z: 0.91887295, w: 0.16213916}
-    - {x: -0.0018326727, y: 0.0023194125, z: 0.4735599, w: 0.3451379}
-    - {x: 0.013919239, y: 0.013920627, z: 0.87137884, w: 0.3561068}
-    - {x: 0.03859389, y: 0.03859574, z: 0.80358666, w: 0.3235625}
-    - {x: 0.28050315, y: 0.28049052, z: 0.38505533, w: -0.00460316}
-    - {x: 0.009601201, y: 0.008344412, z: 0.9886853, w: 0.109900385}
-    - {x: 0.06889529, y: 0.06847725, z: 0.8052509, w: 0.23016761}
-    - {x: 0.008085832, y: 0.008085832, z: 0.6275606, w: 0.38015586}
-    - {x: 0.028459704, y: 0.028470507, z: 0.91980463, w: 0.053338714}
-    - {x: 0.03936002, y: 0.037216917, z: 0.89055145, w: 0.1499384}
-    - {x: 0.041851785, y: 0.042920277, z: 0.9169305, w: 0.08323047}
-    - {x: 0.0036097192, y: -0.00011730962, z: 0.4702915, w: 0.34320933}
-    - {x: 0.023953311, y: 0.023955163, z: 0.63772637, w: 0.35394236}
-    - {x: 0.0065216767, y: 0.0052648885, z: 0.834141, w: 0.3624506}
-    - {x: -0.002761954, y: 0.0013901311, z: 0.47512937, w: 0.35752898}
-    - {x: 0.009903261, y: 0.008646473, z: 0.7951653, w: 0.37735698}
-    - {x: 0.08765334, y: 0.087235294, z: 0.38861102, w: 0.26956984}
+    - {x: -0.0017727125, y: 0.00224344, z: 0.45780253, w: 0.3411402}
+    - {x: 0.009286866, y: 0.008071222, z: 0.84598494, w: 0.22412223}
+    - {x: -0.0027540305, y: 0.0012621222, z: 0.38734925, w: 0.37404665}
+    - {x: 0.011818077, y: 0.010602433, z: 0.7186002, w: 0.3649856}
+    - {x: -0.0032778047, y: 0.0007383475, z: 0.3959605, w: 0.37405166}
+    - {x: 0.39417905, y: 0.3941772, z: -0.0069098873, w: -0.006909851}
+    - {x: 0.015951807, y: 0.0147361625, z: 0.61679316, w: 0.33525717}
+    - {x: 0.013463537, y: 0.01346488, z: 0.61561656, w: 0.32074928}
+    - {x: 0.007430927, y: 0.0062152836, z: 0.8154874, w: 0.29816684}
+    - {x: 0.05943628, y: 0.059431963, z: 0.57845163, w: 0.26144534}
+    - {x: 0.14052555, y: 0.14054883, z: 0.86173433, w: 0.00097369426}
+    - {x: 0.013463558, y: 0.013464898, z: 0.47282675, w: 0.36287406}
+    - {x: 0.007430929, y: 0.006215287, z: 0.8459995, w: 0.2601636}
+    - {x: 0.007430931, y: 0.006215288, z: 0.63034344, w: 0.37164733}
+    - {x: -0.0032778047, y: 0.0007383475, z: 0.39860216, w: 0.37405166}
+    - {x: 0.038939085, y: 0.038940176, z: 0.41754526, w: 0.32950017}
+    - {x: -0.0027539532, y: 0.0012621994, z: 0.38209406, w: 0.37404665}
+    - {x: 0.22320841, y: 0.22323236, z: 0.639903, w: -0.00033430793}
+    - {x: 0.0092868805, y: 0.008071237, z: 0.5468244, w: 0.35919726}
+    - {x: -0.001772674, y: 0.0022434788, z: 0.459173, w: 0.3369718}
+    - {x: 0.14052558, y: 0.14054886, z: 0.64121085, w: 0.2241847}
+    - {x: -0.0032777695, y: 0.00073838304, z: 0.39419943, w: 0.37405166}
+    - {x: 0.013463558, y: 0.013464898, z: 0.48613924, w: 0.36287406}
+    - {x: 0.011818077, y: 0.010602433, z: 0.7059714, w: 0.3649856}
+    - {x: -0.003109529, y: 0.00090662343, z: 0.38946274, w: 0.37405002}
+    - {x: 0.011818099, y: 0.0106024565, z: 0.4325151, w: 0.36906052}
+    - {x: -0.0035946416, y: 0.00042151104, z: 0.40487924, w: 0.37405467}
+    - {x: -0.0026715393, y: 0.0013446135, z: 0.37990886, w: 0.37404585}
+    - {x: -0.0032777716, y: 0.0007383809, z: 0.39507997, w: 0.37405166}
+    - {x: 0.011818082, y: 0.010602441, z: 0.6680851, w: 0.3649856}
+    - {x: -0.0031095354, y: 0.00090661715, z: 0.39039803, w: 0.37405002}
+    - {x: 0.0074309325, y: 0.0062152897, z: 0.57071614, w: 0.36700144}
+    - {x: 0.0092868805, y: 0.008071237, z: 0.5468244, w: 0.36580834}
+    - {x: 0.008027208, y: 0.006811565, z: 0.84599483, w: 0.23662622}
+    - {x: 0.013463555, y: 0.013464896, z: 0.5016175, w: 0.36071002}
+    - {x: -0.0032778047, y: 0.0007383475, z: 0.40036327, w: 0.37405166}
+    - {x: -0.0032778108, y: 0.0007383418, z: 0.4012438, w: 0.37405166}
+    - {x: 0.013463537, y: 0.01346488, z: 0.5561603, w: 0.35467044}
+    - {x: -0.0035946416, y: 0.00042151104, z: 0.40565667, w: 0.37405467}
+    - {x: 0.011818082, y: 0.010602439, z: 0.6807139, w: 0.3649856}
+    - {x: -0.003915983, y: 0.000100169855, z: 0.40732634, w: 0.3740577}
+    - {x: 0.0063081654, y: 0.0050925217, z: 0.5468477, w: 0.37244245}
+    - {x: -0.0027539919, y: 0.001262161, z: 0.38629818, w: 0.37404665}
+    - {x: 0.008027216, y: 0.0068115736, z: 0.6301677, w: 0.32877818}
+    - {x: 0.038939055, y: 0.03894015, z: 0.5772949, w: 0.3196173}
+    - {x: 0.0051696794, y: 0.0039540357, z: 0.5863078, w: 0.37254927}
+    - {x: -0.0032778108, y: 0.0007383418, z: 0.40212435, w: 0.37405166}
+    - {x: 0.020598609, y: 0.020599706, z: 0.5561745, w: 0.3207636}
+    - {x: 0.027052838, y: 0.027053932, z: 0.77875936, w: 0.27724183}
+    - {x: -0.0032778825, y: 0.00073826994, z: 0.40300494, w: 0.37405166}
+    - {x: 0.012763737, y: 0.0115480935, z: 0.65459424, w: 0.36497825}
+    - {x: -0.003916095, y: 0.00010005745, z: 0.40867203, w: 0.3740577}
+    - {x: 0.015951805, y: 0.014736162, z: 0.61679316, w: 0.3457193}
+    - {x: 0.011818073, y: 0.01060243, z: 0.7438578, w: 0.3649856}
+    - {x: 0.0118180765, y: 0.010602431, z: 0.731229, w: 0.3649856}
+    - {x: -0.0027539532, y: 0.0012621994, z: 0.38419613, w: 0.37404665}
+    - {x: -0.0020395694, y: 0.001976583, z: 0.45918155, w: 0.35702378}
+    - {x: 0.011818085, y: 0.010602442, z: 0.5573693, w: 0.3692103}
+    - {x: -0.0031095354, y: 0.00090661715, z: 0.39133334, w: 0.37405002}
+    - {x: -0.0017727125, y: 0.00224344, z: 0.45917296, w: 0.3411402}
+    - {x: 0.0074309274, y: 0.006215284, z: 0.8459995, w: 0.27124092}
+    - {x: -0.0032778047, y: 0.0007383475, z: 0.39772162, w: 0.37405166}
+    - {x: 0.008027215, y: 0.006811571, z: 0.84599483, w: 0.23074302}
+    - {x: -0.002039566, y: 0.0019765866, z: 0.45918155, w: 0.35311955}
+    - {x: 0.007430931, y: 0.006215288, z: 0.7691498, w: 0.3716306}
+    - {x: -0.0008728717, y: 0.003143281, z: 0.45748076, w: 0.331904}
+    - {x: -0.0020395694, y: 0.001976583, z: 0.45918155, w: 0.36092797}
+    - {x: -0.0020396046, y: 0.0019765478, z: 0.457898, w: 0.36483216}
+    - {x: -0.0031095354, y: 0.00090661715, z: 0.39320394, w: 0.37405002}
+    - {x: 0.059436336, y: 0.05943202, z: 0.45953897, w: 0.26144534}
+    - {x: -0.0020395613, y: 0.0019765915, z: 0.45918155, w: 0.34531114}
+    - {x: -0.0032778825, y: 0.00073826994, z: 0.40388545, w: 0.37405166}
+    - {x: 0.04436807, y: 0.044369165, z: 0.37510264, w: 0.32916087}
+    - {x: -0.0031094516, y: 0.00090670097, z: 0.3885274, w: 0.37405002}
+    - {x: -0.003594753, y: 0.00042139972, z: 0.40643412, w: 0.37405467}
+    - {x: 0.0095790345, y: 0.008363391, z: 0.63032657, w: 0.36485085}
+    - {x: 0.008027207, y: 0.0068115634, z: 0.84599483, w: 0.24839261}
+    - {x: 0.013463556, y: 0.013464897, z: 0.5016175, w: 0.33406955}
+    - {x: 0.012763737, y: 0.0115480935, z: 0.6411108, w: 0.36497825}
+    - {x: 0.013463537, y: 0.01346488, z: 0.5784269, w: 0.35795793}
+    - {x: 0.013463537, y: 0.01346488, z: 0.59173936, w: 0.35795793}
+    - {x: 0.038939066, y: 0.038940165, z: 0.51783854, w: 0.31961733}
+    - {x: 0.011818099, y: 0.0106024565, z: 0.41988632, w: 0.36906052}
+    - {x: -0.0032778047, y: 0.0007383475, z: 0.39948273, w: 0.37405166}
+    - {x: 0.011818073, y: 0.0106024295, z: 0.7564866, w: 0.3649856}
+    - {x: 0.0074309274, y: 0.006215284, z: 0.80682385, w: 0.29816684}
+    - {x: -0.0026715393, y: 0.0013446135, z: 0.38098672, w: 0.37404585}
+    - {x: 0.013463556, y: 0.013464897, z: 0.5016175, w: 0.3473898}
+    - {x: 0.005169684, y: 0.003954041, z: 0.579688, w: 0.37254927}
+    - {x: 0.0074309343, y: 0.006215291, z: 0.57071614, w: 0.35592407}
+    - {x: 0.008027207, y: 0.0068115634, z: 0.84599483, w: 0.24250942}
+    - {x: 0.01346354, y: 0.013464881, z: 0.5561603, w: 0.3413502}
+    - {x: -0.0020396046, y: 0.0019765478, z: 0.45918155, w: 0.36483216}
+    - {x: -0.002039566, y: 0.0019765866, z: 0.45918155, w: 0.34921536}
+    - {x: 0.0118180895, y: 0.010602445, z: 0.44514388, w: 0.36906052}
+    - {x: -0.002039566, y: 0.0019765866, z: 0.457898, w: 0.35311955}
+    - {x: 0.007430944, y: 0.0062153004, z: 0.57071614, w: 0.34260386}
+    - {x: -0.0031095354, y: 0.00090661715, z: 0.39226863, w: 0.37405002}
+    - {x: -0.0020395694, y: 0.001976583, z: 0.457898, w: 0.36092797}
+    - {x: 0.007430929, y: 0.0062152855, z: 0.8459995, w: 0.26570228}
+    - {x: -0.0008728717, y: 0.003143281, z: 0.45914403, w: 0.331904}
+    - {x: -0.002039566, y: 0.0019765866, z: 0.457898, w: 0.34921536}
+    - {x: -0.0032778047, y: 0.0007383475, z: 0.39684108, w: 0.37405166}
+    - {x: 0.01181808, y: 0.010602435, z: 0.6933427, w: 0.3649856}
+    - {x: 0.012763746, y: 0.011548103, z: 0.61681813, w: 0.35620612}
+    - {x: 0.01346356, y: 0.013464903, z: 0.45951423, w: 0.36287406}
+    - {x: 0.00516969, y: 0.0039540473, z: 0.57073385, w: 0.37255764}
+    - {x: -0.0027539919, y: 0.001262161, z: 0.38524714, w: 0.37404665}
+    - {x: 0.0063081677, y: 0.0050925245, z: 0.53353524, w: 0.37254056}
+    - {x: -0.0020395613, y: 0.0019765915, z: 0.457898, w: 0.34531114}
+    - {x: -0.003915983, y: 0.000100169855, z: 0.40799916, w: 0.3740577}
+    - {x: 0.04436805, y: 0.044369146, z: 0.45804292, w: 0.31927806}
+    - {x: 0.009286874, y: 0.00807123, z: 0.7691352, w: 0.3650052}
+    - {x: 0.013463558, y: 0.013464898, z: 0.5016175, w: 0.32074934}
+    - {x: 0.013463541, y: 0.013464882, z: 0.532283, w: 0.35795796}
+    - {x: 0.05943632, y: 0.059431996, z: 0.5189953, w: 0.26144534}
+    - {x: -0.0027539532, y: 0.0012621994, z: 0.3831451, w: 0.37404665}
+    - {x: 0.008027203, y: 0.0068115606, z: 0.84599483, w: 0.2542758}
+    - {x: -0.0020395694, y: 0.001976583, z: 0.457898, w: 0.35702378}
+    - {x: 0.00957904, y: 0.008363398, z: 0.63032657, w: 0.35623083}
+    - {x: 0.0074309404, y: 0.006215297, z: 0.57071614, w: 0.34814253}
+    - {x: 0.0074309325, y: 0.0062152897, z: 0.57071614, w: 0.36146277}
+    - {x: -0.001772674, y: 0.0022434788, z: 0.45780253, w: 0.3369718}
+    - {x: 0.0134635465, y: 0.013464889, z: 0.51897055, w: 0.35795796}
+    - {x: 0.27131996, y: 0.2713077, z: 0.37244928, w: -0.00445246}
+    - {x: 0.009286874, y: 0.00807123, z: 0.6062807, w: 0.36580828}
+    - {x: 0.06663977, y: 0.066235416, z: 0.7788883, w: 0.2226323}
+    - {x: 0.0092868805, y: 0.008071237, z: 0.6062807, w: 0.35919723}
+    - {x: 0.012763744, y: 0.0115481, z: 0.61681813, w: 0.36482614}
+    - {x: 0.038071465, y: 0.035998527, z: 0.80654407, w: 0.26053864}
+    - {x: 0.0063081677, y: 0.0050925245, z: 0.5202228, w: 0.37254056}
+    - {x: -0.002671532, y: 0.0013446205, z: 0.378831, w: 0.37404585}
+    - {x: 0.009579045, y: 0.0083634015, z: 0.63015556, w: 0.3219863}
+    - {x: 0.08478372, y: 0.08437936, z: 0.37588853, w: 0.26074457}
     bakedScaleOffsetTerrain: []
     bakedVertexColorMesh:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 0}
@@ -23090,6 +23601,18 @@ PrefabInstance:
 --- !u!4 &1365456328 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4260061140339924, guid: dd57e8d043be00043a115ed1f65dab8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1365456327}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1365456329 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1675554287933646, guid: dd57e8d043be00043a115ed1f65dab8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1365456327}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1365456330 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23482583753438504, guid: dd57e8d043be00043a115ed1f65dab8c,
     type: 3}
   m_PrefabInstance: {fileID: 1365456327}
   m_PrefabAsset: {fileID: 0}
@@ -25356,6 +25879,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d50a0ffd15f6444e9a3c3514c5a8e59, type: 3}
+--- !u!1 &1575667877 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1240817579753376, guid: 7d50a0ffd15f6444e9a3c3514c5a8e59,
+    type: 3}
+  m_PrefabInstance: {fileID: 1575667876}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1575667878 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23147173364077182, guid: 7d50a0ffd15f6444e9a3c3514c5a8e59,
+    type: 3}
+  m_PrefabInstance: {fileID: 1575667876}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1583520657
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25417,6 +25952,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d50a0ffd15f6444e9a3c3514c5a8e59, type: 3}
+--- !u!1 &1583520658 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1240817579753376, guid: 7d50a0ffd15f6444e9a3c3514c5a8e59,
+    type: 3}
+  m_PrefabInstance: {fileID: 1583520657}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1583520659 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23147173364077182, guid: 7d50a0ffd15f6444e9a3c3514c5a8e59,
+    type: 3}
+  m_PrefabInstance: {fileID: 1583520657}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1587381496
 GameObject:
   m_ObjectHideFlags: 0
@@ -25574,7 +26121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57f24a4aaa0761b45ba25e7e5108e2c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UID: -490738345
+  UID: 463678355
   color: {r: 1, g: 0.3066038, b: 0.9482718, a: 1}
   intensity: 2
   shadowSpread: 0.05
@@ -27173,47 +27720,6 @@ MeshRenderer:
     type: 3}
   m_PrefabInstance: {fileID: 1706530377}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1711606654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
-  m_Name: BriaScene1_LM0
-  m_EditorClassIdentifier: 
-  resolution: 4096
-  bitmask: 1
-  id: 0
-  sortingID: 1
-  isImplicit: 1
-  area: 7811.4814
-  totalVertexCount: 0
-  vertexCounter: 0
-  sceneLodLevel: -1
-  sceneName: 
-  containsTerrains: 0
-  probes: 0
-  mode: 1
-  renderMode: 1000
-  renderDirMode: 1000
-  atlasPacker: 1000
-  computeSSS: 0
-  sssSamples: 16
-  sssDensity: 10
-  sssColor: {r: 1, g: 1, b: 1, a: 1}
-  sssScale: 1
-  fakeShadowBias: 0
-  transparentSelfShadow: 0
-  flipNormal: 0
-  parentName: 
-  overridePath: 
-  fixPos3D: 0
-  voxelSize: {x: 1, y: 1, z: 1}
-  passedFilter: 0
 --- !u!1001 &1712119387
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27290,6 +27796,18 @@ PrefabInstance:
 --- !u!4 &1712119388 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4260061140339924, guid: dd57e8d043be00043a115ed1f65dab8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1712119387}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1712119389 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1675554287933646, guid: dd57e8d043be00043a115ed1f65dab8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1712119387}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1712119390 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23482583753438504, guid: dd57e8d043be00043a115ed1f65dab8c,
     type: 3}
   m_PrefabInstance: {fileID: 1712119387}
   m_PrefabAsset: {fileID: 0}
@@ -29900,6 +30418,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d50a0ffd15f6444e9a3c3514c5a8e59, type: 3}
+--- !u!1 &1887178017 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1240817579753376, guid: 7d50a0ffd15f6444e9a3c3514c5a8e59,
+    type: 3}
+  m_PrefabInstance: {fileID: 1887178016}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1887178018 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23147173364077182, guid: 7d50a0ffd15f6444e9a3c3514c5a8e59,
+    type: 3}
+  m_PrefabInstance: {fileID: 1887178016}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1890730523
 GameObject:
   m_ObjectHideFlags: 0
@@ -30288,47 +30818,6 @@ MeshRenderer:
     type: 3}
   m_PrefabInstance: {fileID: 1897901211}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1897991076
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec0b4dd729a12d046982652f834580a2, type: 3}
-  m_Name: probes
-  m_EditorClassIdentifier: 
-  resolution: 4096
-  bitmask: 1
-  id: 1
-  sortingID: 0
-  isImplicit: 1
-  area: 0
-  totalVertexCount: 123
-  vertexCounter: 0
-  sceneLodLevel: -1
-  sceneName: 
-  containsTerrains: 0
-  probes: 1
-  mode: 2
-  renderMode: 1000
-  renderDirMode: 5
-  atlasPacker: 1000
-  computeSSS: 0
-  sssSamples: 16
-  sssDensity: 10
-  sssColor: {r: 1, g: 1, b: 1, a: 1}
-  sssScale: 1
-  fakeShadowBias: 0
-  transparentSelfShadow: 0
-  flipNormal: 0
-  parentName: 
-  overridePath: 
-  fixPos3D: 0
-  voxelSize: {x: 1, y: 1, z: 1}
-  passedFilter: 0
 --- !u!1001 &1898658525
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34348,6 +34837,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1979127563}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1979127565 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1675554287933646, guid: dd57e8d043be00043a115ed1f65dab8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1979127563}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1979127566 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23482583753438504, guid: dd57e8d043be00043a115ed1f65dab8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1979127563}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1989917085
 GameObject:
   m_ObjectHideFlags: 0
@@ -34549,6 +35050,18 @@ PrefabInstance:
 --- !u!4 &2002700798 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4260061140339924, guid: dd57e8d043be00043a115ed1f65dab8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 2002700797}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2002700799 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1675554287933646, guid: dd57e8d043be00043a115ed1f65dab8c,
+    type: 3}
+  m_PrefabInstance: {fileID: 2002700797}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &2002700800 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23482583753438504, guid: dd57e8d043be00043a115ed1f65dab8c,
     type: 3}
   m_PrefabInstance: {fileID: 2002700797}
   m_PrefabAsset: {fileID: 0}
@@ -36987,12 +37500,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1547069349223677 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5286980312943219010, guid: 15e3865a7fddcbe44a82d00ea4005880,
-    type: 3}
-  m_PrefabInstance: {fileID: 5285642219522756031}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1568631593292429
 GameObject:
   m_ObjectHideFlags: 0
@@ -37733,12 +38240,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!23 &23135804975845711 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 5262577644601056496, guid: 15e3865a7fddcbe44a82d00ea4005880,
-    type: 3}
-  m_PrefabInstance: {fileID: 5285642219522756031}
-  m_PrefabAsset: {fileID: 0}
 --- !u!23 &23233851137638711
 MeshRenderer:
   m_ObjectHideFlags: 0
